@@ -4,7 +4,7 @@
 #### What happens:
 
 
-#### What you expected to happen:
+<h2>What you expected to happen</h2>
 
 
 #### Modpack version (Do*not use "latest"):
