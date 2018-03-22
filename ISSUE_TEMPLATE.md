@@ -1,3 +1,5 @@
+#### For feature/mod requests, feel free to delete this template
+
 #### Issue Description
 
 #### What happens
