@@ -10,4 +10,7 @@ This is the official repository and issue-tracker for the modpack Enigmatica 2, 
 
 * [Discord](https://discord.gg/HnWNd7X)
 
-If you would like to make a donation, you can use [this link](https://www.paypal.com/donate/?token=ARIzmvhNN7ILtOCjsZKeshNCucvtgfGd0F9Le1KRZxkIdsoG4aKWqMZKeV2YI_bnFPVwBW&country.x=US&locale.x=US). Donations are very appreciated, but they are in no way required. My modpacks and the support provided for them is free.
+* [Donate](https://www.paypal.com/donate/?token=rLi79iv4RtBrYHL2FqHIa5o-w6kPTzm3Fhk_WQjfIAF9N5ON-lNKwY1wtL03p2d07QuJE0&country.x=US&locale.x=US)
+
+Donations are very appreciated, but they are in no way required. My modpacks and the support provided for them is free.
+A portion of donations are donated to the mod developers who make my modpacks possible.
