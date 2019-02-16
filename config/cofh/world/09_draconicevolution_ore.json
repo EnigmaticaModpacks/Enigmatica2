@@ -1,0 +1,79 @@
+{
+	"dependencies": "draconicevolution",
+	"populate": 
+		{
+		"draconium_overworld": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "draconicevolution:draconium_ore",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 2,
+			"min-height": 2,
+			"max-height": 10,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"draconium_nether": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "draconicevolution:draconium_ore",
+					"metadata": 1
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 1
+			},
+			"cluster-count": 16,
+			"min-height": 12,
+			"max-height": 128,
+			"retrogen": "false",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		"draconium_end": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "draconicevolution:draconium_ore",
+					"metadata": 2
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 26,
+			"min-height": 12,
+			"max-height": 128,
+			"retrogen": "false",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}

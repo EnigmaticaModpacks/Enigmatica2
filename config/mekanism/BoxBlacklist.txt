@@ -1,0 +1,54 @@
+# Use this file to tell Mekanism which blocks should not be picked up by a cardboard box.
+# Proper syntax is "NAME META". Example (for stone):
+# minecraft:stone 0
+astralsorcery:blockcollectorcrystal 0
+astralsorcery:blockcelestialcollectorcrystal 0
+astralsorcery:blockattunementaltar 0
+astralsorcery:blockcelestialgateway 0
+astralsorcery:blocklens 0
+astralsorcery:blockprism 0
+astralsorcery:blockstarlightinfuser 0
+astralsorcery:blockwell 0
+astralsorcery:blockattunementrelay 0
+astralsorcery:blockritualpedestal 0
+astralsorcery:blockaltar
+astralsorcery:blockcelestialcrystals
+astralsorcery:blockmapdrawingtable 0
+ic2:te
+environmentaltech:lightning_cont_1 0
+environmentaltech:lightning_cont_2 0
+environmentaltech:lightning_cont_3 0
+environmentaltech:lightning_cont_4 0
+environmentaltech:lightning_cont_5 0
+environmentaltech:lightning_cont_6 0
+environmentaltech:solar_cont_1 0
+environmentaltech:solar_cont_2 0
+environmentaltech:solar_cont_3 0
+environmentaltech:solar_cont_4 0
+environmentaltech:solar_cont_5 0
+environmentaltech:solar_cont_6 0
+environmentaltech:void_ore_miner_cont_1 0
+environmentaltech:void_ore_miner_cont_2 0
+environmentaltech:void_ore_miner_cont_3 0
+environmentaltech:void_ore_miner_cont_4 0
+environmentaltech:void_ore_miner_cont_5 0
+environmentaltech:void_ore_miner_cont_6 0
+environmentaltech:void_res_miner_cont_1 0
+environmentaltech:void_res_miner_cont_2 0
+environmentaltech:void_res_miner_cont_3 0
+environmentaltech:void_res_miner_cont_4 0
+environmentaltech:void_res_miner_cont_5 0
+environmentaltech:void_res_miner_cont_6 0
+environmentaltech:nano_cont_ranged_1 0
+environmentaltech:nano_cont_ranged_2 0
+environmentaltech:nano_cont_ranged_3 0
+environmentaltech:nano_cont_ranged_4 0
+environmentaltech:nano_cont_ranged_5 0
+environmentaltech:nano_cont_ranged_6 0
+environmentaltech:nano_cont_personal_1 0
+environmentaltech:nano_cont_personal_2 0
+environmentaltech:nano_cont_personal_3 0
+environmentaltech:nano_cont_personal_4 0
+environmentaltech:nano_cont_personal_5 0
+environmentaltech:nano_cont_personal_6 0
+cookingforblockheads:fridge 0
