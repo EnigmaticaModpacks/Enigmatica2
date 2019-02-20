@@ -10,7 +10,7 @@ This is the official repository and issue-tracker for the modpack Enigmatica 2, 
 
 * [Discord](https://discord.gg/HnWNd7X)
 
-* [Donate](https://www.paypal.com/donate/?token=rLi79iv4RtBrYHL2FqHIa5o-w6kPTzm3Fhk_WQjfIAF9N5ON-lNKwY1wtL03p2d07QuJE0&country.x=US&locale.x=US)
+* [Donate](https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/enigmatica2?gameCategorySlug=modpacks&projectID=269353&cn=Add+special+instructions+to+the+addon+author()&business=niels.pilgaard%40hotmail.com&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&cancel_return=https://minecraft.curseforge.com/projects/enigmatica2?gameCategorySlug=modpacks&projectID=269353&lc=US&item_name=Enigmatica+2+(from+curseforge.com)&cmd=_donations&rm=1&no_shipping=1&currency_code=USD)
 
 Donations are very appreciated, but they are in no way required. My modpacks and the support provided for them is free.
 
