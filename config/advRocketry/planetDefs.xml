@@ -164,7 +164,7 @@
 			<rotationalPeriod>12000</rotationalPeriod>	
         </planet>
 	</star>
-<star name="HD 42176" temp="200" x="100" y="0" numPlanets="0" numGasGiants="0">
+<star name="HD 42176" temp="200" x="0" y="100" numPlanets="0" numGasGiants="0">
 		<planet name="KELT-1b" DIMID="117" customIcon="gasgiantblue">
             <skyColor>0,1,0</skyColor>
 			<fogColor>0,0,1</fogColor>
@@ -194,7 +194,7 @@
 			<rotationalPeriod>8000</rotationalPeriod>
         </planet>
 	</star>
-	<star name="HD 63776" temp="200" x="100" y="0" numPlanets="0" numGasGiants="0">
+	<star name="HD 63776" temp="200" x="100" y="100" numPlanets="0" numGasGiants="0">
 		<planet name="KELT-4ab" DIMID="120" customIcon="iceworld">
 		    <biomeIds>biomesoplenty:alps, biomesoplenty:alps_foothills, biomesoplenty:glacier</biomeIds>
             <skyColor>0,1,0</skyColor>
@@ -234,7 +234,7 @@
 			<rotationalPeriod>100000</rotationalPeriod>
         </planet>
 	</star>
-	<star name="Rigil Kentaurus" temp="100" x="0" y="0" numPlanets="2" numGasGiants="1">
+	<star name="Rigil Kentaurus" temp="100" x="200" y="200" numPlanets="2" numGasGiants="1">
     </star>
 	<star name="Alpha Centauri B" temp="100" x="0" y="0" numPlanets="2" numGasGiants="1">
     </star>

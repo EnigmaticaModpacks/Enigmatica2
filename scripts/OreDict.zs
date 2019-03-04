@@ -3,6 +3,9 @@ import crafttweaker.item.IItemStack as IItemStack;
 # Custom recipes made by NillerMedDild
 	print("--- loading OreDict.zs ---");
 
+# Removing Pam's in-world Apple from cropApple
+	<ore:cropApple>.remove(<harvestcraft:pamapple>);
+	
 # Cobalt Block issues
 	<ore:oreCobalt>.remove(<tconstruct:metal>);
 	<ore:oreArdite>.remove(<tconstruct:metal>);

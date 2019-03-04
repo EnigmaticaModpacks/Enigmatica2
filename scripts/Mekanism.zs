@@ -60,10 +60,6 @@ import mods.jei.JEI.removeAndHide as rh;
 	rh(<mekanismtools:steelleggings>);
 	rh(<mekanismtools:steelchestplate>);
 
-# Draconium Ore
-	mods.mekanism.combiner.removeRecipe(<draconicevolution:draconium_ore>);
-	mods.mekanism.combiner.addRecipe(<draconicevolution:draconium_dust> * 8, <draconicevolution:draconium_ore>);
-	
 # Nether Quartz Ore
 	mods.mekanism.combiner.removeRecipe(<minecraft:quartz_ore>);
 	mods.mekanism.combiner.addRecipe(<minecraft:quartz> * 6, <minecraft:quartz_ore>);
