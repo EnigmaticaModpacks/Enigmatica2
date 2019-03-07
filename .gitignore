@@ -73,3 +73,5 @@ ModpackFileId.json
 *.jar
 server.properties
 config/brandon3055/ProjectIntelligence/ModDocs/
+oldmanifest.json
+manifest.json
