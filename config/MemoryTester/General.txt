@@ -1,3 +1,5 @@
+MemoryTesterVersion=0.4.2
+
 RecommendedMemoryAllocation=6656
 
 UseMenu=false

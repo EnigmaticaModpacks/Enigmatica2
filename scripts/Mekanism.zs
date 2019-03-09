@@ -2,9 +2,6 @@ import mods.jei.JEI.removeAndHide as rh;
 # Custom recipes made by NillerMedDild
 	print("--- loading Mekanism.zs ---");
 
-# Fixing a dupe bug
-	mods.mekanism.sawmill.removeRecipe(<minecraft:trapdoor>);
-	
 # Increasing Stacksize
 	<mekanism:tierinstaller>.maxStackSize = 16;
 	<mekanism:tierinstaller:1>.maxStackSize = 16;
