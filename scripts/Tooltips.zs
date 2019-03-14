@@ -8,7 +8,7 @@ import mods.jei.JEI.addDescription as ad;
 	var metallurgic = format.red("(Only obtainable through the Metallurgic Infuser)");
 	var atomicReconstructor = format.red("(Only obtainable through the Atomic Reconstructor)");
 
-# *======= Adding Tooltips =======*
+ad(<environmentaltech:void_ore_miner_cont_6>, "Void Ore Miner Tier 6 specializes in generating rare ores from the void", "It does not generate common ores.");
 
 # Liquid Nitrogen
 	ad(<liquid:nitrogen>, "Obtainable with Nitrogen Collectors.");
