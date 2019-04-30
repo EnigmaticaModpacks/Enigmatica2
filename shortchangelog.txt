@@ -1,8 +1,0 @@
-Enigmatica2 1.65 to Enigmatica2 1.65a
-
-Downgraded:
-	Just Enough Items (JEI) (went from jei_1.12.2-4.15.0.277.jar to jei_1.12.2-4.15.0.275.jar):
-		View changelog at:
-			https://minecraft.curseforge.com/projects/jei/files/2699252
-
-* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.12.2)
