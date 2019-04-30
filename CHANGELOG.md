@@ -1,14 +1,30 @@
 # Enigmatica 2 Changelog
 
-## [1.65](https://github.com/NillerMedDild/Enigmatica2/tree/1.65) (2019-04-11)
-
 **Implemented enhancements:**
 
+- Subtle Server Advertising [\#448](https://github.com/NillerMedDild/Enigmatica2/issues/448) [[Marker: Config](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Config)] [[Priority: High](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20High)] [[Type: Enhancement](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Enhancement)]
+- Akashic Tome Additions [\#446](https://github.com/NillerMedDild/Enigmatica2/issues/446) [[Marker: Config](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Config)] [[Priority: Low](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Low)] [[Type: Suggestion](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Suggestion)]
+
+**Fixed bugs:**
+
+- Thaumcraft JEI Integration Issues [\#445](https://github.com/NillerMedDild/Enigmatica2/issues/445) [[Status: Blocked](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Blocked)] [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
+
+## [1.66](https://github.com/NillerMedDild/Enigmatica2/tree/1.66) (2019-04-30)
+**Implemented enhancements:**
+
+- Disable Mekanism Machine Lighting [\#443](https://github.com/NillerMedDild/Enigmatica2/issues/443) [[Marker: Config](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Config)] [[Type: Enhancement](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Enhancement)]
 - Swap Mekanica with Mekanism [\#431](https://github.com/NillerMedDild/Enigmatica2/issues/431) [[Marker: Mod](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Mod)] [[Priority: Medium](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Medium)] [[Type: Enhancement](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Enhancement)]
 
 **Fixed bugs:**
 
-- Botania Magnet Crash
+- MineColonies NPCs go invisible [\#437](https://github.com/NillerMedDild/Enigmatica2/issues/437) [[Marker: Config](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Config)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+- Keybinding For Fullscreen - Disabled Fullscreen Borderless by default, can be changed by the player [\#435](https://github.com/NillerMedDild/Enigmatica2/issues/435) [[Marker: Config](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Config)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+- Game crash everytime when trying to break enderio alloy smelter [\#433](https://github.com/NillerMedDild/Enigmatica2/issues/433) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+- 1.63a Mekanica quest All the Alloys! doesn't detect the Metallurgic Infuser [\#408](https://github.com/NillerMedDild/Enigmatica2/issues/408) [[Priority: Medium](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Medium)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+
+**Merged pull requests:**
+
+- Update DefaultQuests.json [\#438](https://github.com/NillerMedDild/Enigmatica2/pull/438) ([Discomanco](https://github.com/Discomanco))
 
 
 
