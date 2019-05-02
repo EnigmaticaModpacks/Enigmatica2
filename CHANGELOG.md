@@ -1,5 +1,12 @@
 # Enigmatica 2 Changelog
 
+## [Unreleased](https://github.com/NillerMedDild/Enigmatica2/tree/HEAD)
+
+**Fixed bugs:**
+
+- Weird hovering issue after update [\#454](https://github.com/NillerMedDild/Enigmatica2/issues/454) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+
+## [1.66b](https://github.com/NillerMedDild/Enigmatica2/tree/1.66b) (2019-05-02)
 ## [1.66a](https://github.com/NillerMedDild/Enigmatica2/tree/1.66a) (2019-05-02)
 **Implemented enhancements:**
 
