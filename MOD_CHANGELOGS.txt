@@ -1,4 +1,4 @@
-Enigmatica2 1.65a to Enigmatica2 1.66
+Enigmatica2 1.65a to Enigmatica2 1.66a
 
 Updated:
 	Advanced Rocketry (went from AdvancedRocketry 1.12.2-1.5.0-138-UNSTABLE build -138 for 1.12.2 to AdvancedRocketry 1.12.2-1.5.0-139-UNSTABLE build -139 for 1.12.2):
@@ -36,6 +36,36 @@ Updated:
 			- Fixed drop in crashing with inventories that have loot tables (WireSegal)
 
 			- Fixed picking block getting state from the world despite being given one.
+
+	Better Questing (went from BetterQuesting-3.5.296.jar to BetterQuesting-3.5.299.jar):
+		BetterQuesting-3.5.299.jar:
+			Added icons to quest lines
+
+			Added visibility option to quest lines
+
+			Added indicators for quest lines with pending rewards or fully complete
+
+			Added icon to purge quests not contained within any quest line (use with caution)
+
+			Added air as a valid item option in the selection screen
+
+			Added permission API support (by Clem-Fern)
+
+			Added select-all button in file selection GUI
+
+			Fixed hardcore commands not saving setting changes to file
+
+			Fixed some entity selection causing crashing after confirmation
+
+			Fixed oversight in legacy loader that skipped prerequisite linking
+
+			Fixed unnecessary reflection hooks for NBTTagList
+
+			Fixed notifications not using the correct translation methods
+
+			Improved database threading slightly more
+
+			Note: Was supposed to have had this tested and uploaded a week ago but SF4's charity release took priority.
 
 	Better Questing - Standard Expansion (went from StandardExpansion-3.4.154.jar to StandardExpansion-3.4.158.jar):
 		StandardExpansion-3.4.158.jar:
@@ -579,21 +609,31 @@ Updated:
 			 - Depends on McJtyLib 3.5.0!
 			 - Fixed a potential crash with portals in some rare cases
 
-	Mekanism (went from Mekanism-1.12.2-9.7.1.371.jar to Mekanism-1.12.2-9.7.2.373.jar):
+	Mekanism (went from Mekanism-1.12.2-9.7.1.371.jar to Mekanism-1.12.2-9.7.3.374.jar):
+		Mekanism-1.12.2-9.7.3.374.jar:
+			[14bd97e](https://github.com/mekanism-mod/Mekanism/commit/14bd97e435bef7e0b818dabd408c912dfdb67469)- Give the CrT mekRecipes command a proper description[03cc33f](https://github.com/mekanism-mod/Mekanism/commit/03cc33f501e49abb6d57fe355e1bf8e7b098643b)- As we disable capabilities when a side config has them disabled we need to notify the neighbor of an update when a side's config changes. ([#5426](https://github.com/mekanism-mod/Mekanism/issues/5426))[485ee89](https://github.com/mekanism-mod/Mekanism/commit/485ee895913e0b6dc6f5bcbf0525364e56312f25)- Fix a few missing fluid color renders for various guis ([#5424](https://github.com/mekanism-mod/Mekanism/issues/5424))[fe8233c](https://github.com/mekanism-mod/Mekanism/commit/fe8233c8947354486ae6abba5bbfab1adc2ff549)- Fix Crash when adding a dot or a E to the Laser Amplifier Delay. ([#5430](https://github.com/mekanism-mod/Mekanism/issues/5430))[74e168e](https://github.com/mekanism-mod/Mekanism/commit/74e168e3a3c6b322aaddb9f84c5044fdf8db467a)- Mark BinRecipe as dynamic. Removes Caliper Air warning closes[#5174](https://github.com/mekanism-mod/Mekanism/issues/5174)[c1832d8](https://github.com/mekanism-mod/Mekanism/commit/c1832d812e6411b18fb9c2d5bcf646b7e074dea8)- Fix Advanced purifying factory not having the lights be on. Closes[#5223](https://github.com/mekanism-mod/Mekanism/issues/5223)[10a7be5](https://github.com/mekanism-mod/Mekanism/commit/10a7be5f1252ca242ba2a3e85fc4defa206c5a80)- IDE assisted Nullable annotations for RecipeHandler[f6d3d74](https://github.com/mekanism-mod/Mekanism/commit/f6d3d742e8dcd5dc4f94f8b3e8731098c3f43bdd)- Check for null recipe in factory input slot. Fixes[#5434](https://github.com/mekanism-mod/Mekanism/issues/5434)[ba89f44](https://github.com/mekanism-mod/Mekanism/commit/ba89f446f9febea80d8682727257d259ca4fcff7)- Actually obey the update cache param, and use the more advanced helper method in Container as well[99977f8](https://github.com/mekanism-mod/Mekanism/commit/99977f881480879f71611af223cd387ab4bd9e20)- Properly set the metallurgic infuser to empty, fixes[#5439](https://github.com/mekanism-mod/Mekanism/issues/5439)[dccc32d](https://github.com/mekanism-mod/Mekanism/commit/dccc32db8557294d5761cd2b71120d83afb68300)- Check NBT for factory sorting. Fixes[#5436](https://github.com/mekanism-mod/Mekanism/issues/5436)[9692deb](https://github.com/mekanism-mod/Mekanism/commit/9692debdcf454d5ad4f06ca040f88273369a4e4f)- Fix desync between server and client for personal chest. Fixes[#5438](https://github.com/mekanism-mod/Mekanism/issues/5438)[075673f](https://github.com/mekanism-mod/Mekanism/commit/075673fc56da83d756d44c194234c0c9e0b2d8aa)- Improve Compat with TOP ([#5427](https://github.com/mekanism-mod/Mekanism/issues/5427))[445556f](https://github.com/mekanism-mod/Mekanism/commit/445556fef79a3aae8731941e4a16532d86e291ba)- Use security utils for checking access to teleporter and quantum entangloporter ([#5431](https://github.com/mekanism-mod/Mekanism/issues/5431))[b3663a3](https://github.com/mekanism-mod/Mekanism/commit/b3663a37a958328156eba8b08ec4e7e19e04ebee)- Emitting logic overhaul ([#5422](https://github.com/mekanism-mod/Mekanism/issues/5422))[14d6070](https://github.com/mekanism-mod/Mekanism/commit/14d60702b6570c8905ad1be234fae99bdfc7b888)- Add some more ore processing compatibility ([#5445](https://github.com/mekanism-mod/Mekanism/issues/5445))[36aa81d](https://github.com/mekanism-mod/Mekanism/commit/36aa81dcf4f34861554c0e072a05d7eebde6df10)- Add support for configuring machine energy storage. ([#5418](https://github.com/mekanism-mod/Mekanism/issues/5418))[36d1a9c](https://github.com/mekanism-mod/Mekanism/commit/36d1a9c50151475a1dc2ad3ca5714b2f375bd16f)- Always request a render update because the rotation may have changed. Fixes[#4942](https://github.com/mekanism-mod/Mekanism/issues/4942)[d5db11e](https://github.com/mekanism-mod/Mekanism/commit/d5db11eea3bc81f6b430f5450bf82b23606b3f74)- Port[#4952](https://github.com/mekanism-mod/Mekanism/issues/4952)by @danielzgtg Item drop compatibility ([#5384](https://github.com/mekanism-mod/Mekanism/issues/5384))[faef156](https://github.com/mekanism-mod/Mekanism/commit/faef15691ca71472a1e3732e554ea64bf30d478b)- bump version to 9.7.3
 		Mekanism-1.12.2-9.7.2.373.jar:
 			[04372a6](https://github.com/mekanism-mod/Mekanism/commit/04372a6426b673b1adbce37a709ecfa8ffa96b59)- Various fixes to data not loading properly ([#5407](https://github.com/mekanism-mod/Mekanism/issues/5407))[a5d9a5a](https://github.com/mekanism-mod/Mekanism/commit/a5d9a5a2c1d01fbde08c7f955670919e221cf108)- Fix redstone bug described in[#5407](https://github.com/mekanism-mod/Mekanism/issues/5407)turns out it did have to call markDirtyTransmitters and notifyTileChange was not enough[260b545](https://github.com/mekanism-mod/Mekanism/commit/260b5454049e817740429444e534d7ab39d02ff3)- Load Mekanism Tools config before creating the materials so the config actually takes effect. Fixes[#5412](https://github.com/mekanism-mod/Mekanism/issues/5412)[e187bc1](https://github.com/mekanism-mod/Mekanism/commit/e187bc1bb89f52bb2d162a79368c6fd3234bf4e6)- Robit teleportation fix. Closes[#5415](https://github.com/mekanism-mod/Mekanism/issues/5415)[bbcea85](https://github.com/mekanism-mod/Mekanism/commit/bbcea85fc48e326137df367ff427718f363151ba)- Respect NONE connection mode for Pipe Connections ([#5387](https://github.com/mekanism-mod/Mekanism/issues/5387))[0dba7cb](https://github.com/mekanism-mod/Mekanism/commit/0dba7cb5841c9bc32b9c11a76f54f0ab97313142)- use getters & setters for InfuseStorage ([#5416](https://github.com/mekanism-mod/Mekanism/issues/5416))[77d774e](https://github.com/mekanism-mod/Mekanism/commit/77d774e55fad0c432e5e8a99a05ff95f4ef285f5)- Particle fixes ([#5411](https://github.com/mekanism-mod/Mekanism/issues/5411))[3316832](https://github.com/mekanism-mod/Mekanism/commit/3316832070527bc111467252b1259e55990be6b0)- bump version[4a74b95](https://github.com/mekanism-mod/Mekanism/commit/4a74b959985730d174dae024ca1e131d19efbfb1)- Update to 9.7.2
 
-	Mekanism Generators (went from MekanismGenerators-1.12.2-9.7.1.371.jar to MekanismGenerators-1.12.2-9.7.2.373.jar):
+	Mekanism Generators (went from MekanismGenerators-1.12.2-9.7.1.371.jar to MekanismGenerators-1.12.2-9.7.3.374.jar):
+		MekanismGenerators-1.12.2-9.7.3.374.jar:
+			[14bd97e](https://github.com/mekanism-mod/Mekanism/commit/14bd97e435bef7e0b818dabd408c912dfdb67469)- Give the CrT mekRecipes command a proper description[03cc33f](https://github.com/mekanism-mod/Mekanism/commit/03cc33f501e49abb6d57fe355e1bf8e7b098643b)- As we disable capabilities when a side config has them disabled we need to notify the neighbor of an update when a side's config changes. ([#5426](https://github.com/mekanism-mod/Mekanism/issues/5426))[485ee89](https://github.com/mekanism-mod/Mekanism/commit/485ee895913e0b6dc6f5bcbf0525364e56312f25)- Fix a few missing fluid color renders for various guis ([#5424](https://github.com/mekanism-mod/Mekanism/issues/5424))[fe8233c](https://github.com/mekanism-mod/Mekanism/commit/fe8233c8947354486ae6abba5bbfab1adc2ff549)- Fix Crash when adding a dot or a E to the Laser Amplifier Delay. ([#5430](https://github.com/mekanism-mod/Mekanism/issues/5430))[74e168e](https://github.com/mekanism-mod/Mekanism/commit/74e168e3a3c6b322aaddb9f84c5044fdf8db467a)- Mark BinRecipe as dynamic. Removes Caliper Air warning closes[#5174](https://github.com/mekanism-mod/Mekanism/issues/5174)[c1832d8](https://github.com/mekanism-mod/Mekanism/commit/c1832d812e6411b18fb9c2d5bcf646b7e074dea8)- Fix Advanced purifying factory not having the lights be on. Closes[#5223](https://github.com/mekanism-mod/Mekanism/issues/5223)[10a7be5](https://github.com/mekanism-mod/Mekanism/commit/10a7be5f1252ca242ba2a3e85fc4defa206c5a80)- IDE assisted Nullable annotations for RecipeHandler[f6d3d74](https://github.com/mekanism-mod/Mekanism/commit/f6d3d742e8dcd5dc4f94f8b3e8731098c3f43bdd)- Check for null recipe in factory input slot. Fixes[#5434](https://github.com/mekanism-mod/Mekanism/issues/5434)[ba89f44](https://github.com/mekanism-mod/Mekanism/commit/ba89f446f9febea80d8682727257d259ca4fcff7)- Actually obey the update cache param, and use the more advanced helper method in Container as well[99977f8](https://github.com/mekanism-mod/Mekanism/commit/99977f881480879f71611af223cd387ab4bd9e20)- Properly set the metallurgic infuser to empty, fixes[#5439](https://github.com/mekanism-mod/Mekanism/issues/5439)[dccc32d](https://github.com/mekanism-mod/Mekanism/commit/dccc32db8557294d5761cd2b71120d83afb68300)- Check NBT for factory sorting. Fixes[#5436](https://github.com/mekanism-mod/Mekanism/issues/5436)[9692deb](https://github.com/mekanism-mod/Mekanism/commit/9692debdcf454d5ad4f06ca040f88273369a4e4f)- Fix desync between server and client for personal chest. Fixes[#5438](https://github.com/mekanism-mod/Mekanism/issues/5438)[075673f](https://github.com/mekanism-mod/Mekanism/commit/075673fc56da83d756d44c194234c0c9e0b2d8aa)- Improve Compat with TOP ([#5427](https://github.com/mekanism-mod/Mekanism/issues/5427))[445556f](https://github.com/mekanism-mod/Mekanism/commit/445556fef79a3aae8731941e4a16532d86e291ba)- Use security utils for checking access to teleporter and quantum entangloporter ([#5431](https://github.com/mekanism-mod/Mekanism/issues/5431))[b3663a3](https://github.com/mekanism-mod/Mekanism/commit/b3663a37a958328156eba8b08ec4e7e19e04ebee)- Emitting logic overhaul ([#5422](https://github.com/mekanism-mod/Mekanism/issues/5422))[14d6070](https://github.com/mekanism-mod/Mekanism/commit/14d60702b6570c8905ad1be234fae99bdfc7b888)- Add some more ore processing compatibility ([#5445](https://github.com/mekanism-mod/Mekanism/issues/5445))[36aa81d](https://github.com/mekanism-mod/Mekanism/commit/36aa81dcf4f34861554c0e072a05d7eebde6df10)- Add support for configuring machine energy storage. ([#5418](https://github.com/mekanism-mod/Mekanism/issues/5418))[36d1a9c](https://github.com/mekanism-mod/Mekanism/commit/36d1a9c50151475a1dc2ad3ca5714b2f375bd16f)- Always request a render update because the rotation may have changed. Fixes[#4942](https://github.com/mekanism-mod/Mekanism/issues/4942)[d5db11e](https://github.com/mekanism-mod/Mekanism/commit/d5db11eea3bc81f6b430f5450bf82b23606b3f74)- Port[#4952](https://github.com/mekanism-mod/Mekanism/issues/4952)by @danielzgtg Item drop compatibility ([#5384](https://github.com/mekanism-mod/Mekanism/issues/5384))[faef156](https://github.com/mekanism-mod/Mekanism/commit/faef15691ca71472a1e3732e554ea64bf30d478b)- bump version to 9.7.3
 		MekanismGenerators-1.12.2-9.7.2.373.jar:
 			[04372a6](https://github.com/mekanism-mod/Mekanism/commit/04372a6426b673b1adbce37a709ecfa8ffa96b59)- Various fixes to data not loading properly ([#5407](https://github.com/mekanism-mod/Mekanism/issues/5407))[a5d9a5a](https://github.com/mekanism-mod/Mekanism/commit/a5d9a5a2c1d01fbde08c7f955670919e221cf108)- Fix redstone bug described in[#5407](https://github.com/mekanism-mod/Mekanism/issues/5407)turns out it did have to call markDirtyTransmitters and notifyTileChange was not enough[260b545](https://github.com/mekanism-mod/Mekanism/commit/260b5454049e817740429444e534d7ab39d02ff3)- Load Mekanism Tools config before creating the materials so the config actually takes effect. Fixes[#5412](https://github.com/mekanism-mod/Mekanism/issues/5412)[e187bc1](https://github.com/mekanism-mod/Mekanism/commit/e187bc1bb89f52bb2d162a79368c6fd3234bf4e6)- Robit teleportation fix. Closes[#5415](https://github.com/mekanism-mod/Mekanism/issues/5415)[bbcea85](https://github.com/mekanism-mod/Mekanism/commit/bbcea85fc48e326137df367ff427718f363151ba)- Respect NONE connection mode for Pipe Connections ([#5387](https://github.com/mekanism-mod/Mekanism/issues/5387))[0dba7cb](https://github.com/mekanism-mod/Mekanism/commit/0dba7cb5841c9bc32b9c11a76f54f0ab97313142)- use getters & setters for InfuseStorage ([#5416](https://github.com/mekanism-mod/Mekanism/issues/5416))[77d774e](https://github.com/mekanism-mod/Mekanism/commit/77d774e55fad0c432e5e8a99a05ff95f4ef285f5)- Particle fixes ([#5411](https://github.com/mekanism-mod/Mekanism/issues/5411))[3316832](https://github.com/mekanism-mod/Mekanism/commit/3316832070527bc111467252b1259e55990be6b0)- bump version[4a74b95](https://github.com/mekanism-mod/Mekanism/commit/4a74b959985730d174dae024ca1e131d19efbfb1)- Update to 9.7.2
 
-	Mekanism Tools (went from MekanismTools-1.12.2-9.7.1.371.jar to MekanismTools-1.12.2-9.7.2.373.jar):
+	Mekanism Tools (went from MekanismTools-1.12.2-9.7.1.371.jar to MekanismTools-1.12.2-9.7.3.374.jar):
+		MekanismTools-1.12.2-9.7.3.374.jar:
+			[14bd97e](https://github.com/mekanism-mod/Mekanism/commit/14bd97e435bef7e0b818dabd408c912dfdb67469)- Give the CrT mekRecipes command a proper description[03cc33f](https://github.com/mekanism-mod/Mekanism/commit/03cc33f501e49abb6d57fe355e1bf8e7b098643b)- As we disable capabilities when a side config has them disabled we need to notify the neighbor of an update when a side's config changes. ([#5426](https://github.com/mekanism-mod/Mekanism/issues/5426))[485ee89](https://github.com/mekanism-mod/Mekanism/commit/485ee895913e0b6dc6f5bcbf0525364e56312f25)- Fix a few missing fluid color renders for various guis ([#5424](https://github.com/mekanism-mod/Mekanism/issues/5424))[fe8233c](https://github.com/mekanism-mod/Mekanism/commit/fe8233c8947354486ae6abba5bbfab1adc2ff549)- Fix Crash when adding a dot or a E to the Laser Amplifier Delay. ([#5430](https://github.com/mekanism-mod/Mekanism/issues/5430))[74e168e](https://github.com/mekanism-mod/Mekanism/commit/74e168e3a3c6b322aaddb9f84c5044fdf8db467a)- Mark BinRecipe as dynamic. Removes Caliper Air warning closes[#5174](https://github.com/mekanism-mod/Mekanism/issues/5174)[c1832d8](https://github.com/mekanism-mod/Mekanism/commit/c1832d812e6411b18fb9c2d5bcf646b7e074dea8)- Fix Advanced purifying factory not having the lights be on. Closes[#5223](https://github.com/mekanism-mod/Mekanism/issues/5223)[10a7be5](https://github.com/mekanism-mod/Mekanism/commit/10a7be5f1252ca242ba2a3e85fc4defa206c5a80)- IDE assisted Nullable annotations for RecipeHandler[f6d3d74](https://github.com/mekanism-mod/Mekanism/commit/f6d3d742e8dcd5dc4f94f8b3e8731098c3f43bdd)- Check for null recipe in factory input slot. Fixes[#5434](https://github.com/mekanism-mod/Mekanism/issues/5434)[ba89f44](https://github.com/mekanism-mod/Mekanism/commit/ba89f446f9febea80d8682727257d259ca4fcff7)- Actually obey the update cache param, and use the more advanced helper method in Container as well[99977f8](https://github.com/mekanism-mod/Mekanism/commit/99977f881480879f71611af223cd387ab4bd9e20)- Properly set the metallurgic infuser to empty, fixes[#5439](https://github.com/mekanism-mod/Mekanism/issues/5439)[dccc32d](https://github.com/mekanism-mod/Mekanism/commit/dccc32db8557294d5761cd2b71120d83afb68300)- Check NBT for factory sorting. Fixes[#5436](https://github.com/mekanism-mod/Mekanism/issues/5436)[9692deb](https://github.com/mekanism-mod/Mekanism/commit/9692debdcf454d5ad4f06ca040f88273369a4e4f)- Fix desync between server and client for personal chest. Fixes[#5438](https://github.com/mekanism-mod/Mekanism/issues/5438)[075673f](https://github.com/mekanism-mod/Mekanism/commit/075673fc56da83d756d44c194234c0c9e0b2d8aa)- Improve Compat with TOP ([#5427](https://github.com/mekanism-mod/Mekanism/issues/5427))[445556f](https://github.com/mekanism-mod/Mekanism/commit/445556fef79a3aae8731941e4a16532d86e291ba)- Use security utils for checking access to teleporter and quantum entangloporter ([#5431](https://github.com/mekanism-mod/Mekanism/issues/5431))[b3663a3](https://github.com/mekanism-mod/Mekanism/commit/b3663a37a958328156eba8b08ec4e7e19e04ebee)- Emitting logic overhaul ([#5422](https://github.com/mekanism-mod/Mekanism/issues/5422))[14d6070](https://github.com/mekanism-mod/Mekanism/commit/14d60702b6570c8905ad1be234fae99bdfc7b888)- Add some more ore processing compatibility ([#5445](https://github.com/mekanism-mod/Mekanism/issues/5445))[36aa81d](https://github.com/mekanism-mod/Mekanism/commit/36aa81dcf4f34861554c0e072a05d7eebde6df10)- Add support for configuring machine energy storage. ([#5418](https://github.com/mekanism-mod/Mekanism/issues/5418))[36d1a9c](https://github.com/mekanism-mod/Mekanism/commit/36d1a9c50151475a1dc2ad3ca5714b2f375bd16f)- Always request a render update because the rotation may have changed. Fixes[#4942](https://github.com/mekanism-mod/Mekanism/issues/4942)[d5db11e](https://github.com/mekanism-mod/Mekanism/commit/d5db11eea3bc81f6b430f5450bf82b23606b3f74)- Port[#4952](https://github.com/mekanism-mod/Mekanism/issues/4952)by @danielzgtg Item drop compatibility ([#5384](https://github.com/mekanism-mod/Mekanism/issues/5384))[faef156](https://github.com/mekanism-mod/Mekanism/commit/faef15691ca71472a1e3732e554ea64bf30d478b)- bump version to 9.7.3
 		MekanismTools-1.12.2-9.7.2.373.jar:
 			[04372a6](https://github.com/mekanism-mod/Mekanism/commit/04372a6426b673b1adbce37a709ecfa8ffa96b59)- Various fixes to data not loading properly ([#5407](https://github.com/mekanism-mod/Mekanism/issues/5407))[a5d9a5a](https://github.com/mekanism-mod/Mekanism/commit/a5d9a5a2c1d01fbde08c7f955670919e221cf108)- Fix redstone bug described in[#5407](https://github.com/mekanism-mod/Mekanism/issues/5407)turns out it did have to call markDirtyTransmitters and notifyTileChange was not enough[260b545](https://github.com/mekanism-mod/Mekanism/commit/260b5454049e817740429444e534d7ab39d02ff3)- Load Mekanism Tools config before creating the materials so the config actually takes effect. Fixes[#5412](https://github.com/mekanism-mod/Mekanism/issues/5412)[e187bc1](https://github.com/mekanism-mod/Mekanism/commit/e187bc1bb89f52bb2d162a79368c6fd3234bf4e6)- Robit teleportation fix. Closes[#5415](https://github.com/mekanism-mod/Mekanism/issues/5415)[bbcea85](https://github.com/mekanism-mod/Mekanism/commit/bbcea85fc48e326137df367ff427718f363151ba)- Respect NONE connection mode for Pipe Connections ([#5387](https://github.com/mekanism-mod/Mekanism/issues/5387))[0dba7cb](https://github.com/mekanism-mod/Mekanism/commit/0dba7cb5841c9bc32b9c11a76f54f0ab97313142)- use getters & setters for InfuseStorage ([#5416](https://github.com/mekanism-mod/Mekanism/issues/5416))[77d774e](https://github.com/mekanism-mod/Mekanism/commit/77d774e55fad0c432e5e8a99a05ff95f4ef285f5)- Particle fixes ([#5411](https://github.com/mekanism-mod/Mekanism/issues/5411))[3316832](https://github.com/mekanism-mod/Mekanism/commit/3316832070527bc111467252b1259e55990be6b0)- bump version[4a74b95](https://github.com/mekanism-mod/Mekanism/commit/4a74b959985730d174dae024ca1e131d19efbfb1)- Update to 9.7.2
 
 	Minecraft Forge (went from 1.12.2-14.23.5.2781 to 1.12.2-14.23.5.2815)
 
-	Not Enough Wands (went from NotEnoughWands - 1.12-1.7.3 to NotEnoughWands - 1.12-1.8.0):
+	Not Enough Wands (went from NotEnoughWands - 1.12-1.7.3 to NotEnoughWands - 1.12-1.8.1):
+		NotEnoughWands - 1.12-1.8.1:
+			NotEnoughWands 1.12-1.8.1
+
+			 - Fixed a problem where the wand configs weren't being respected anymore
 		NotEnoughWands - 1.12-1.8.0:
 			NotEnoughWands 1.12-1.8.0
 
@@ -789,7 +829,13 @@ Updated:
 			 - Lykrast maded machines face the user in first person, like pumpkins do. This means you now see the front of the machine instead of the side/back when holding in your hand.
 			 - Tcheinen added comparator functions for the modular storage block. Like vanilla chests it will return 0 when empty, 15 when full, and for all other cases (number of stacks/max stacks) * 14 + 1
 
-	RFTools Control (went from RFToolsControl - 1.12-1.9.3 to RFToolsControl - 1.12-2.0.1):
+	RFTools Control (went from RFToolsControl - 1.12-1.9.3 to RFToolsControl - 1.12-2.0.2):
+		RFToolsControl - 1.12-2.0.2:
+			 - Fixed a bug where the storage card module wouldn't always get recognized by the processor
+			 - Added a new 'eval_getcraftingcard'. This can get the crafting card out of an inventory that can craft the given item
+			 - Added ore dictionary support for 'do_pushworkbench'
+			 - Added ore dictionary support for 'eval_ingredients'
+			 - The 'net list' command will now also show crafting stations
 		RFToolsControl - 1.12-2.0.1:
 			 - Fixed a bug where oredictionary matching was broken for 'get_ingredients_smart'
 			 - Fixed a problem with the item tooltip in the crafting station
@@ -885,27 +931,31 @@ Updated:
 			 - Fix a possible crash in case a compact machine is placed in a city sphere (by Thraaawn)
 			 - Force filtered biomes to actually check for allowed biomes (by esotericist)
 
-	Wizardry Mod (went from wizardry-0.9.9.jar to wizardry-0.10.0.jar):
-		wizardry-0.10.0.jar:
-			0.10.0
-			Fixed unicorns not spawning
-			Fixed staff losing spell data when not removing pearl
-			Fixed Sonic Scream crashing servers
-			Fixed /wizardry tpunderworld
-			Fixed Illumination sometimes replacing blocks
-			Underworld now generates based on world seed
-			Fixed Wisdom Wood Sapling not growing
-			Initial work on Torikki (extremely WIP)
-			Mana and Nacre now no longer disable swimming
-			Fixed not being able to go to the underworld while in creative or while not taking fall damage / having fly
-			Added mana pool dim blacklist/whitelist toggle config
-			Makes pearl holder only hold one pearl at a time and not a stack
-			Fix null deserialization error
-			Added pearl belt to hold multiple pearls (yes you can actually stop bugging us about it now)
-			Fix Break spell Enchantment crash
-			Fix teleport sounds for the substitute spell
+	Wawla - What Are We Looking At (went from Wawla-1.12.2-2.5.270.jar to Wawla-1.12.2-2.5.272.jar):
+		Wawla-1.12.2-2.5.272.jar:
+			 * Added French language support.
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog&Wawla)
 
-	XNet (went from XNet - 1.12-1.7.6 to XNet - 1.12-1.8.0):
+			 * NillerMedDild
+			 * Jonathan McManus
+			 * Varitek
+			 * Pongo Sapiens
+			 * Darkosto
+		Wawla-1.12.2-2.5.271.jar:
+			 * Added an error message in chat for people who confused Wawla with Waila/Hwyla and are wondering why it's not working. - Tyler Hancock
+			 * Compiled against newest version of Forge. - Tyler Hancock
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog&Wawla)
+
+			 * NillerMedDild
+			 * Jonathan McManus
+			 * Varitek
+			 * Pongo Sapiens
+			 * Darkosto
+
+	XNet (went from XNet - 1.12-1.7.6 to XNet - 1.12-1.8.1):
+		XNet - 1.12-1.8.1:
+			 - The ctrl-c/ctrl-v hotkeys work on connectors now instead of channels
+			 - The up/down keys move up/down the selected connector
 		XNet - 1.12-1.8.0:
 			 - Depends on McJtyLib 3.5.0!
 			 - Fixed a problem where the updated proxy would break instantly by hand and not drop anything

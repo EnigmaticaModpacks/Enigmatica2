@@ -65,7 +65,7 @@
         },
         "servers": {
             "text": "Servers",
-			"hoverText": "Sponsored by Bisect Hosting",
+			"hoverText": "BisectHosting",
             "posX": 44,
             "posY": -70,
             "width": 100,
@@ -137,7 +137,7 @@
             "alignment": "left_center",
             "action": {
                 "type": "openLink",
-                "link": "https://github.com/NillerMedDild/Enigmatica2Expert/issues"
+                "link": "https://github.com/NillerMedDild/Enigmatica2/issues"
             }
         },
 		"discord": {
