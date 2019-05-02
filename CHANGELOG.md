@@ -1,5 +1,6 @@
 # Enigmatica 2 Changelog
 
+## [1.66a](https://github.com/NillerMedDild/Enigmatica2/tree/1.66a) (2019-05-02)
 **Implemented enhancements:**
 
 - Subtle Server Advertising [\#448](https://github.com/NillerMedDild/Enigmatica2/issues/448) [[Marker: Config](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Config)] [[Priority: High](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20High)] [[Type: Enhancement](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Enhancement)]
@@ -7,6 +8,7 @@
 
 **Fixed bugs:**
 
+- Client crashing when loading into a server hosting a newly generated world. \(1.66\) [\#450](https://github.com/NillerMedDild/Enigmatica2/issues/450) [[Priority: Critical](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Critical)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
 - Thaumcraft JEI Integration Issues [\#445](https://github.com/NillerMedDild/Enigmatica2/issues/445) [[Status: Blocked](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Blocked)] [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
 
 ## [1.66](https://github.com/NillerMedDild/Enigmatica2/tree/1.66) (2019-04-30)
@@ -21,6 +23,10 @@
 - Keybinding For Fullscreen - Disabled Fullscreen Borderless by default, can be changed by the player [\#435](https://github.com/NillerMedDild/Enigmatica2/issues/435) [[Marker: Config](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Config)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
 - Game crash everytime when trying to break enderio alloy smelter [\#433](https://github.com/NillerMedDild/Enigmatica2/issues/433) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
 - 1.63a Mekanica quest All the Alloys! doesn't detect the Metallurgic Infuser [\#408](https://github.com/NillerMedDild/Enigmatica2/issues/408) [[Priority: Medium](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Medium)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+
+**Closed issues:**
+
+- Crash with Phosphor when starting server [\#428](https://github.com/NillerMedDild/Enigmatica2/issues/428) [[Marker: SpongeForge](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20SpongeForge)] [[Status: Blocked](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Blocked)]
 
 **Merged pull requests:**
 
