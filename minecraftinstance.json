@@ -3486,21 +3486,6 @@
       "fileSize": 879945
     },
     {
-      "folderName": "Quark-r1.5-150.jar",
-      "fingerprint": 1957043902,
-      "fileDateHash": 1040446573,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1957043902
-      ],
-      "status": 1,
-      "timestamp": "2019-05-12T08:05:58.8870152Z",
-      "lastWriteTimeUtc": "2019-05-12T07:46:49.0300006Z",
-      "queryTimestamp": "2019-05-15T06:51:50.0975613Z",
-      "fileCount": 1,
-      "fileSize": 2247323
-    },
-    {
       "folderName": "BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar",
       "fingerprint": 2031588189,
       "fileDateHash": 1746724897,
@@ -4281,6 +4266,21 @@
       "fileSize": 455763
     },
     {
+      "folderName": "Quark-r1.5-151.jar",
+      "fingerprint": 3967462957,
+      "fileDateHash": 3162831083,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3967462957
+      ],
+      "status": 1,
+      "timestamp": "2019-05-15T10:00:51.1252795Z",
+      "lastWriteTimeUtc": "2019-05-15T06:51:21.0213711Z",
+      "queryTimestamp": "2019-05-15T10:00:52.1272775Z",
+      "fileCount": 1,
+      "fileSize": 2252018
+    },
+    {
       "folderName": "ThermalDynamics-1.12.2-2.5.4.18-universal.jar",
       "fingerprint": 2440492480,
       "fileDateHash": 3272967031,
@@ -4294,21 +4294,6 @@
       "queryTimestamp": "2019-05-15T06:51:50.1131857Z",
       "fileCount": 1,
       "fileSize": 761920
-    },
-    {
-      "folderName": "Quark-r1.5-151.jar",
-      "fingerprint": 3967462957,
-      "fileDateHash": 3162831083,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3967462957
-      ],
-      "status": 1,
-      "timestamp": "2019-05-15T06:51:49.566353Z",
-      "lastWriteTimeUtc": "2019-05-15T06:51:21.0213711Z",
-      "queryTimestamp": "2019-05-15T06:51:50.1131857Z",
-      "fileCount": 1,
-      "fileSize": 2252018
     },
     {
       "folderName": "plustic-7.0.6.1.jar",
@@ -5490,21 +5475,6 @@
       "queryTimestamp": "2019-05-15T06:51:50.1444349Z",
       "fileCount": 1,
       "fileSize": 9302043
-    },
-    {
-      "folderName": "Quark-r1.5-146.jar",
-      "fingerprint": 2536334731,
-      "fileDateHash": 3197068852,
-      "sectionID": 6,
-      "individualFingerprints": [
-        2536334731
-      ],
-      "status": 1,
-      "timestamp": "2019-03-04T10:33:11.8237284Z",
-      "lastWriteTimeUtc": "2019-03-04T08:58:20.8261528Z",
-      "queryTimestamp": "2019-05-15T06:51:50.1444349Z",
-      "fileCount": 1,
-      "fileSize": 2055235
     },
     {
       "folderName": "FTBUtilities-5.3.0.81.jar",
@@ -6813,7 +6783,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2019-05-15T06:51:52.7839883Z",
+  "lastPreviousMatchUpdate": "2019-05-15T10:00:53.6363267Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -17943,88 +17913,6 @@
       "dateUpdated": "2019-02-11T18:28:16.1705213Z",
       "dateLastUpdateAttempted": "2019-02-11T18:28:16.1705213Z",
       "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 243121,
-      "gameInstanceID": "26510249-ede3-4c1f-a3e1-8347a94c4de1",
-      "installedFile": {
-        "id": 2677108,
-        "displayName": "Quark-r1.5-146.jar",
-        "fileName": "Quark-r1.5-146.jar",
-        "fileDate": "2019-02-19T20:33:01.11Z",
-        "fileLength": 2055235,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2677/108/Quark-r1.5-146.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 250363,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2564488503,
-            "type": 0
-          },
-          {
-            "foldername": "betterwithmods",
-            "fingerprint": 1637584094,
-            "type": 0
-          },
-          {
-            "foldername": "vazkii",
-            "fingerprint": 3115070887,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 695489716,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 4095536489,
-            "type": 0
-          },
-          {
-            "foldername": "proxypack.mcmeta",
-            "fingerprint": 3313685099,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 2536334731,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameId": 0,
-        "FileNameOnDisk": "Quark-r1.5-146.jar"
-      },
-      "dateInstalled": "2019-05-15T06:51:51.1098095Z",
-      "dateUpdated": "2019-05-15T07:02:04.7009586Z",
-      "dateLastUpdateAttempted": "2019-05-15T07:02:04.7009586Z",
-      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

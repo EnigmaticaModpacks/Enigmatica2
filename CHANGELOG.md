@@ -1,13 +1,25 @@
 # Enigmatica 2 Changelog
 
+**Implemented enhancements:**
+
+- Recipe for Airtight Seal Enchant [\#463](https://github.com/NillerMedDild/Enigmatica2/issues/463) [[Marker: Script](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Script)] [[Type: Enhancement](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Enhancement)]
+
 **Fixed bugs:**
 
 - Crash with NuclearCraft
 - Crash with Mekanism
 - Crash with XNet Gas Channels (YNot)
+- Streams Mod Streams Disappear [\#457](https://github.com/NillerMedDild/Enigmatica2/issues/457) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
+- Random Villager sounds in chunks near villages & Quark cave systems [\#452](https://github.com/NillerMedDild/Enigmatica2/issues/452) [[Status: Confirmation Needed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Confirmation%20Needed)] [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
+- RFTools’ dimensional shards are craftable even though the option is disabled in the config (Should not be craftable) [\#441](https://github.com/NillerMedDild/Enigmatica2/issues/441) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+- AE2’s ME formation planes \(normal and fluid\) don’t work most of the time [\#426](https://github.com/NillerMedDild/Enigmatica2/issues/426) [[Priority: Low](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Low)] [[Status: Available](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Available)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+- Atomic Disassembler\(Mekanism\) on a Wisdom Wood Log \(Wizardry\)Tree causes server crash [\#280](https://github.com/NillerMedDild/Enigmatica2/issues/280) [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
+
+## [1.67](https://github.com/NillerMedDild/Enigmatica2/tree/1.67) (2019-05-02)
+**Fixed bugs:**
+
 - Weird hovering issue after update [\#454](https://github.com/NillerMedDild/Enigmatica2/issues/454) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
 
-## [1.66b](https://github.com/NillerMedDild/Enigmatica2/tree/1.66b) (2019-05-02)
 ## [1.66a](https://github.com/NillerMedDild/Enigmatica2/tree/1.66a) (2019-05-02)
 **Implemented enhancements:**
 
@@ -39,6 +51,27 @@
 **Merged pull requests:**
 
 - Update DefaultQuests.json [\#438](https://github.com/NillerMedDild/Enigmatica2/pull/438) ([Discomanco](https://github.com/Discomanco))
+
+## [1.65](https://github.com/NillerMedDild/Enigmatica2/tree/1.65) (2019-04-11)
+**Implemented enhancements:**
+
+- RFTools spawner not spawning Modded creatures [\#427](https://github.com/NillerMedDild/Enigmatica2/issues/427) [[Marker: Config](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Config)] [[Priority: Low](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Low)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Enhancement](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Enhancement)]
+- Quark Cave Crystal UU-Matter Values [\#422](https://github.com/NillerMedDild/Enigmatica2/issues/422) [[Marker: Config](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Config)] [[Priority: Medium](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Medium)] [[Status: Available](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Available)] [[Type: Enhancement](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Enhancement)]
+- Fullscreen Windowed \(Borderless\) for Minecraft [\#421](https://github.com/NillerMedDild/Enigmatica2/issues/421) [[Marker: Mod](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Mod)] [[Type: Enhancement](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Enhancement)]
+- Phosphor [\#419](https://github.com/NillerMedDild/Enigmatica2/issues/419) [[Marker: Mod](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Mod)] [[Type: Enhancement](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Enhancement)]
+
+**Fixed bugs:**
+
+- Quantum Singularities not recognized by AE2 Quest [\#417](https://github.com/NillerMedDild/Enigmatica2/issues/417) [[Marker: Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Quest)] [[Priority: Low](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Low)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+- Applied Energestics 2 cable facades cannot be crafted with certain Chisel factory blocks [\#416](https://github.com/NillerMedDild/Enigmatica2/issues/416) [[Marker: Config](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Config)] [[Priority: Low](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Low)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+- Incorrect quest reference to crafting creative item [\#414](https://github.com/NillerMedDild/Enigmatica2/issues/414) [[Marker: Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Quest)] [[Priority: Low](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Low)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+- JEI no longer shows ore gen tabs \(added by JER\) or Thaumcraft recipes \(added by Thaumic JEI\) [\#407](https://github.com/NillerMedDild/Enigmatica2/issues/407) [[Priority: Medium](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Medium)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+- Shift clicking the planet id chip into the guidance computer will crash the game [\#399](https://github.com/NillerMedDild/Enigmatica2/issues/399) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
+
+**Closed issues:**
+
+- Game crash when loading block [\#420](https://github.com/NillerMedDild/Enigmatica2/issues/420) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Maintenance](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Maintenance)]
+- Nutrition JSON outdated [\#409](https://github.com/NillerMedDild/Enigmatica2/issues/409) [[Marker: Config](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Config)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Maintenance](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Maintenance)]
 
 
 
