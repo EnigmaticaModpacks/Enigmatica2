@@ -7,6 +7,11 @@
       "sha1": "d5a5720994f27f2921f3b33451dfef5d2cb8fd86"
     },
     {
+      "file_path": "structure/lang/ru_ru.json",
+      "url": "http://pi.brandon3055.com/objects/af/afde1e0e1ab39ab31ba8f287854aa73418bb9f05",
+      "sha1": "afde1e0e1ab39ab31ba8f287854aa73418bb9f05"
+    },
+    {
       "file_path": "structure/lang/zh_cn.json",
       "url": "http://pi.brandon3055.com/objects/0c/0c8700d360d3272133bea0b8f1457f339552fe6f",
       "sha1": "0c8700d360d3272133bea0b8f1457f339552fe6f"
@@ -15,6 +20,11 @@
       "file_path": "structure/structure.json",
       "url": "http://pi.brandon3055.com/objects/f9/f98d85d48cf333f068923d7422a0eca650e3b607",
       "sha1": "f98d85d48cf333f068923d7422a0eca650e3b607"
+    },
+    {
+      "file_path": "structure/ru_ru/draconicevolution_dbd2b.md",
+      "url": "http://pi.brandon3055.com/objects/10/10248aa9a979433e84f9d788fc74b5fcdcaef9fb",
+      "sha1": "10248aa9a979433e84f9d788fc74b5fcdcaef9fb"
     },
     {
       "file_path": "structure/zh_cn/draconicevolution_dbd2b.md",
@@ -28,6 +38,504 @@
     }
   ],
   "lang_files": [
+    {
+      "file_path": "ru_ru/cores_b46c6.md",
+      "url": "http://pi.brandon3055.com/objects/ed/ed60081597d3d1a52334fd42e356c1ff54b08de2",
+      "sha1": "ed60081597d3d1a52334fd42e356c1ff54b08de2",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/dislocation_6d4cb.md",
+      "url": "http://pi.brandon3055.com/objects/0a/0a0152ee0a66d741a0301868fae0a972a990927f",
+      "sha1": "0a0152ee0a66d741a0301868fae0a972a990927f",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/celestial_manipulator_55724.md",
+      "url": "http://pi.brandon3055.com/objects/72/72e1783cf423348750c92d5551c291979e682a89",
+      "sha1": "72e1783cf423348750c92d5551c291979e682a89",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/rain_sensor_92dae.md",
+      "url": "http://pi.brandon3055.com/objects/67/676111abe64de9f4d9185f1ca889ca35efa99bc0",
+      "sha1": "676111abe64de9f4d9185f1ca889ca35efa99bc0",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_armor/draconic_chestplate_e14af.md",
+      "url": "http://pi.brandon3055.com/objects/d5/d5fabe53e70875aae3da34ac1037e09941b28cbf",
+      "sha1": "d5fabe53e70875aae3da34ac1037e09941b28cbf",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_armor/draconic_leggings_dc633.md",
+      "url": "http://pi.brandon3055.com/objects/07/07071356987e7335ae885ad9822cf8e445e86126",
+      "sha1": "07071356987e7335ae885ad9822cf8e445e86126",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_armor/draconic_boots_53ead.md",
+      "url": "http://pi.brandon3055.com/objects/d3/d3e7963effdcf55f6eb69da2500015d3e8337072",
+      "sha1": "d3e7963effdcf55f6eb69da2500015d3e8337072",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_armor/draconic_helmet_54f52.md",
+      "url": "http://pi.brandon3055.com/objects/c4/c43a8b1798a13b5542689597889c2aeea15f14a5",
+      "sha1": "c43a8b1798a13b5542689597889c2aeea15f14a5",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/upgrade_system_a708d.md",
+      "url": "http://pi.brandon3055.com/objects/3e/3e6b624c8d6f9b02acfef6ae3e9bdc48f592b3e0",
+      "sha1": "3e6b624c8d6f9b02acfef6ae3e9bdc48f592b3e0",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconium_8395a.md",
+      "url": "http://pi.brandon3055.com/objects/fc/fcd7711ddba8c08b9fa08f81ac4b961fdc809ece",
+      "sha1": "fcd7711ddba8c08b9fa08f81ac4b961fdc809ece",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/energy_network/relay_crystals_2bf03.md",
+      "url": "http://pi.brandon3055.com/objects/51/5199ad92cbfa5d459fa8df2fddf3c35c7df7e835",
+      "sha1": "5199ad92cbfa5d459fa8df2fddf3c35c7df7e835",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/energy_network/energy_io_crystals_5c5b0.md",
+      "url": "http://pi.brandon3055.com/objects/11/1137f04858feb1503099645e120f8b11ab952c5b",
+      "sha1": "1137f04858feb1503099645e120f8b11ab952c5b",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/energy_network/the_basics_461cd.md",
+      "url": "http://pi.brandon3055.com/objects/00/004b677a5eef5ea2764263d47ca00b24c5f3bb5a",
+      "sha1": "004b677a5eef5ea2764263d47ca00b24c5f3bb5a",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/energy_network/wireless_crystals_29e8b.md",
+      "url": "http://pi.brandon3055.com/objects/7a/7a6e09d58347a3ef5a1fc19be5ce50d58d7ae2c7",
+      "sha1": "7a6e09d58347a3ef5a1fc19be5ce50d58d7ae2c7",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/fusion_crafting/fusion_crafting_injectors_26e3e.md",
+      "url": "http://pi.brandon3055.com/objects/71/71601639af34ec9b49014d9f47d089bef65a77e4",
+      "sha1": "71601639af34ec9b49014d9f47d089bef65a77e4",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/fusion_crafting/fusion_crafting_setup_84af7.md",
+      "url": "http://pi.brandon3055.com/objects/de/de33519b34e01672f8fc7cd87e4d5c6566b86ee4",
+      "sha1": "de33519b34e01672f8fc7cd87e4d5c6566b86ee4",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/energy_storage_core/energy_pylon_e75da.md",
+      "url": "http://pi.brandon3055.com/objects/3b/3b76b0d7e59fedf95849dfd5d193d77af4105f12",
+      "sha1": "3b76b0d7e59fedf95849dfd5d193d77af4105f12",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/energy_storage_core/energy_core_stabilizer_dfaaa.md",
+      "url": "http://pi.brandon3055.com/objects/42/42ca833b270ce9f8e3f76ffe5b21bcb4589ccee0",
+      "sha1": "42ca833b270ce9f8e3f76ffe5b21bcb4589ccee0",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/energy_storage_core/energy_core_setup_7be5c.md",
+      "url": "http://pi.brandon3055.com/objects/f7/f7b0bf94eb39001393c2e8ba35ed6ee6df0dab10",
+      "sha1": "f7b0bf94eb39001393c2e8ba35ed6ee6df0dab10",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/wyvern_armor/wyvern_leggings_2b410.md",
+      "url": "http://pi.brandon3055.com/objects/97/97a277e24fb6bf45c467f916664a6a41f045c0bf",
+      "sha1": "97a277e24fb6bf45c467f916664a6a41f045c0bf",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/wyvern_armor/wyvern_chestplate_472d6.md",
+      "url": "http://pi.brandon3055.com/objects/47/47aae6feb041be1bc6f6e6046e3180ff3311d8f1",
+      "sha1": "47aae6feb041be1bc6f6e6046e3180ff3311d8f1",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/wyvern_armor/wyvern_boots_9d888.md",
+      "url": "http://pi.brandon3055.com/objects/40/407510bc6b5a004db199513e930c2970171a2a56",
+      "sha1": "407510bc6b5a004db199513e930c2970171a2a56",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/wyvern_armor/wyvern_helmet_60559.md",
+      "url": "http://pi.brandon3055.com/objects/20/205168b1d02686fbff100d7f4574f07ef8b7084b",
+      "sha1": "205168b1d02686fbff100d7f4574f07ef8b7084b",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/wyvern_armor_4e10b.md",
+      "url": "http://pi.brandon3055.com/objects/69/697baf706e2e0d8c0ce03e87d70e304ab7b59f07",
+      "sha1": "697baf706e2e0d8c0ce03e87d70e304ab7b59f07",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_tools_ce5a3.md",
+      "url": "http://pi.brandon3055.com/objects/fc/fcacc6bf5495653d64f3084d3c97a8252b0cbe4e",
+      "sha1": "fcacc6bf5495653d64f3084d3c97a8252b0cbe4e",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_reactor/reactor_explosion_8a46b.md",
+      "url": "http://pi.brandon3055.com/objects/51/51bb8aeeb398572c3fa201f994076e6e52af68b9",
+      "sha1": "51bb8aeeb398572c3fa201f994076e6e52af68b9",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_reactor/regulation_and_safety_24690.md",
+      "url": "http://pi.brandon3055.com/objects/76/766686c09f6a1736041dcaa5c733f71a53a445a3",
+      "sha1": "766686c09f6a1736041dcaa5c733f71a53a445a3",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_reactor/basic_operation_909db.md",
+      "url": "http://pi.brandon3055.com/objects/38/384af94bd349e9c9833f71a54195f160490b92ae",
+      "sha1": "384af94bd349e9c9833f71a54195f160490b92ae",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_energy_shield_4ef7c.md",
+      "url": "http://pi.brandon3055.com/objects/51/51306cc3fa5accb081127846a8bb4f779007020f",
+      "sha1": "51306cc3fa5accb081127846a8bb4f779007020f",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_armor_a7ed0.md",
+      "url": "http://pi.brandon3055.com/objects/33/3322ed70bd835e5c105a93f89c878d710d20da06",
+      "sha1": "3322ed70bd835e5c105a93f89c878d710d20da06",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/dislocation/dislocator_81ef7.md",
+      "url": "http://pi.brandon3055.com/objects/f4/f4c497ef8a60a4dfe1f015819cbd19323485a9d3",
+      "sha1": "f4c497ef8a60a4dfe1f015819cbd19323485a9d3",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/dislocation/advanced_dislocator_aa59f.md",
+      "url": "http://pi.brandon3055.com/objects/f7/f7c0efc210dba3ed484338e75b34d14804072d17",
+      "sha1": "f7c0efc210dba3ed484338e75b34d14804072d17",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/dislocation/awakened_item_dislocator_81c55.md",
+      "url": "http://pi.brandon3055.com/objects/4e/4e7c3241060ca33a515dcde81dedf034343bc9e5",
+      "sha1": "4e7c3241060ca33a515dcde81dedf034343bc9e5",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/dislocation/bound_dislocators_d4344.md",
+      "url": "http://pi.brandon3055.com/objects/79/799af464d49def4b1cc50ac8dee2e2110b711c75",
+      "sha1": "799af464d49def4b1cc50ac8dee2e2110b711c75",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/dislocation/item_dislocator_a286b.md",
+      "url": "http://pi.brandon3055.com/objects/f9/f97ece5e3eb8f17435a17e3f297158ff9db3c381",
+      "sha1": "f97ece5e3eb8f17435a17e3f297158ff9db3c381",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/dislocation/dislocation_blocker_20e01.md",
+      "url": "http://pi.brandon3055.com/objects/14/14f072d7ea1e82ce446df856b3e3933c533ae7f3",
+      "sha1": "14f072d7ea1e82ce446df856b3e3933c533ae7f3",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/dislocation/dislocator_pedestal_40605.md",
+      "url": "http://pi.brandon3055.com/objects/32/329408fd59ca6a637b765d157012225666dbc898",
+      "sha1": "329408fd59ca6a637b765d157012225666dbc898",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/dislocation/dislocator_receptacle_8aad6.md",
+      "url": "http://pi.brandon3055.com/objects/05/05681551723d0a00a50c8ab21c3503588163da1e",
+      "sha1": "05681551723d0a00a50c8ab21c3503588163da1e",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/disenchanter_3606d.md",
+      "url": "http://pi.brandon3055.com/objects/48/48bfb8cee5a2ea3a20c5d88068aefdf52007b7ae",
+      "sha1": "48bfb8cee5a2ea3a20c5d88068aefdf52007b7ae",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconium/draconium_dust_a564f.md",
+      "url": "http://pi.brandon3055.com/objects/cf/cfab636b1d9c34a6744748cc8ef4985e83fc362a",
+      "sha1": "cfab636b1d9c34a6744748cc8ef4985e83fc362a",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconium/draconium_block_4058e.md",
+      "url": "http://pi.brandon3055.com/objects/e0/e05427bcfc1076f88a06de696e3211798f3b9236",
+      "sha1": "e05427bcfc1076f88a06de696e3211798f3b9236",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconium/draconium_ore_87f4d.md",
+      "url": "http://pi.brandon3055.com/objects/e4/e409d4451941d944111e37f733031407af80179c",
+      "sha1": "e409d4451941d944111e37f733031407af80179c",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/energy_storage_core_7665b.md",
+      "url": "http://pi.brandon3055.com/objects/1c/1cd07c0d16869e872df592a9372418e8ec0618d3",
+      "sha1": "1cd07c0d16869e872df592a9372418e8ec0618d3",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/stabilized_spawner_4e561.md",
+      "url": "http://pi.brandon3055.com/objects/cc/cc0a35ca9fdbefe10a1dac199784837dd1f3cd71",
+      "sha1": "cc0a35ca9fdbefe10a1dac199784837dd1f3cd71",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_reactor_b98b3.md",
+      "url": "http://pi.brandon3055.com/objects/55/5555109fa9a3edd2ed7b2a524941a637d409647f",
+      "sha1": "5555109fa9a3edd2ed7b2a524941a637d409647f",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/test_page_4f9ac.md",
+      "url": "http://pi.brandon3055.com/objects/9c/9c56944ee368567e7a163e4d93520f71063db66e",
+      "sha1": "9c56944ee368567e7a163e4d93520f71063db66e",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/wyvern_tools/wyvern_sword_dc96b.md",
+      "url": "http://pi.brandon3055.com/objects/ed/edfaa3731fd37ea9065e2836bc22df1401b00d8f",
+      "sha1": "edfaa3731fd37ea9065e2836bc22df1401b00d8f",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/wyvern_tools/wyvern_axe_11dbd.md",
+      "url": "http://pi.brandon3055.com/objects/ee/eef7d6533c9c5fb4991d5ccb32ed6c7aafeceac0",
+      "sha1": "eef7d6533c9c5fb4991d5ccb32ed6c7aafeceac0",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/wyvern_tools/wyvern_flux_capacitor_f3f1c.md",
+      "url": "http://pi.brandon3055.com/objects/0a/0a8e8a34477453041a10c1da0e8dc2197f8a7b3e",
+      "sha1": "0a8e8a34477453041a10c1da0e8dc2197f8a7b3e",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/wyvern_tools/wyvern_bow_e17dc.md",
+      "url": "http://pi.brandon3055.com/objects/36/3677adadbe60febf262f198d974a94635cb50688",
+      "sha1": "3677adadbe60febf262f198d974a94635cb50688",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/wyvern_tools/wyvern_shovel_9dbf8.md",
+      "url": "http://pi.brandon3055.com/objects/06/067754a055ee072a3b1628ac24f5d4b6870fefe5",
+      "sha1": "067754a055ee072a3b1628ac24f5d4b6870fefe5",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/wyvern_tools/wyvern_pickaxe_97459.md",
+      "url": "http://pi.brandon3055.com/objects/af/aff8cd1754e2ab8f75a0f49a9d4261d3343e5d2c",
+      "sha1": "aff8cd1754e2ab8f75a0f49a9d4261d3343e5d2c",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/wyvern_tools_26115.md",
+      "url": "http://pi.brandon3055.com/objects/a3/a3b949bb6983eaa5bbff256ce4ffe33e28a6fba0",
+      "sha1": "a3b949bb6983eaa5bbff256ce4ffe33e28a6fba0",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_tools/draconic_flux_capacitor_5685f.md",
+      "url": "http://pi.brandon3055.com/objects/2c/2cfd06ab797c12911b3ce2f0812d5b0c4ae70cd1",
+      "sha1": "2cfd06ab797c12911b3ce2f0812d5b0c4ae70cd1",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_tools/draconic_axe_bcd5b.md",
+      "url": "http://pi.brandon3055.com/objects/30/30b2d44e331fe58562e8e916e0a7be347c13cf8e",
+      "sha1": "30b2d44e331fe58562e8e916e0a7be347c13cf8e",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_tools/draconic_bow_a8440.md",
+      "url": "http://pi.brandon3055.com/objects/af/af6272ada7b38bc03f5d84d5423b114377869adf",
+      "sha1": "af6272ada7b38bc03f5d84d5423b114377869adf",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_tools/draconic_sword_f9c8f.md",
+      "url": "http://pi.brandon3055.com/objects/b5/b52af53f3578e2a19c39c1e81edc2f933cd957bd",
+      "sha1": "b52af53f3578e2a19c39c1e81edc2f933cd957bd",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_tools/draconic_hoe_21b89.md",
+      "url": "http://pi.brandon3055.com/objects/b1/b16ddc86b71dbd61d16e1754833d71e694f958df",
+      "sha1": "b16ddc86b71dbd61d16e1754833d71e694f958df",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_tools/draconic_shovel_26bf1.md",
+      "url": "http://pi.brandon3055.com/objects/36/36e372d8908b8cec21df25c994d2b9246a2983c7",
+      "sha1": "36e372d8908b8cec21df25c994d2b9246a2983c7",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_tools/draconic_pickaxe_5380c.md",
+      "url": "http://pi.brandon3055.com/objects/26/26eb6d029284f43bf1be779442ddf228a13d5dbc",
+      "sha1": "26eb6d029284f43bf1be779442ddf228a13d5dbc",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconic_tools/draconic_staff_of_power_31983.md",
+      "url": "http://pi.brandon3055.com/objects/eb/eb353ccc1989db71a3e51aada8f9dd41d5d0ece1",
+      "sha1": "eb353ccc1989db71a3e51aada8f9dd41d5d0ece1",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/contributors_14e32.md",
+      "url": "http://pi.brandon3055.com/objects/6e/6e1f88c1bc07128513ddbf8ced594c2afe4fe53b",
+      "sha1": "6e1f88c1bc07128513ddbf8ced594c2afe4fe53b",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/spotlights_65054.md",
+      "url": "http://pi.brandon3055.com/objects/0c/0cf26ca22f4ba3f57642e09adcab0bd510fd9aec",
+      "sha1": "0cf26ca22f4ba3f57642e09adcab0bd510fd9aec",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/energy_network_cbb72.md",
+      "url": "http://pi.brandon3055.com/objects/99/9925dec07836d5dc1357310ae6995b78e0427b2a",
+      "sha1": "9925dec07836d5dc1357310ae6995b78e0427b2a",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/mob_grinder_c25b0.md",
+      "url": "http://pi.brandon3055.com/objects/3a/3a34128d95d7917992458a3672a8c579b65f4458",
+      "sha1": "3a34128d95d7917992458a3672a8c579b65f4458",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/cores/draconic_energy_core_4f12f.md",
+      "url": "http://pi.brandon3055.com/objects/02/0235b2e43992536fd8e78265a0332c30597edcde",
+      "sha1": "0235b2e43992536fd8e78265a0332c30597edcde",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/cores/draconic_core_3cc88.md",
+      "url": "http://pi.brandon3055.com/objects/88/88fb2c76eeeeca83317e9de5252abdbea1a9ac06",
+      "sha1": "88fb2c76eeeeca83317e9de5252abdbea1a9ac06",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/cores/wyvern_core_c2c0a.md",
+      "url": "http://pi.brandon3055.com/objects/a4/a493b848ecdc835355303cdabab34d577033208d",
+      "sha1": "a493b848ecdc835355303cdabab34d577033208d",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/cores/wyvern_energy_core_a2b4d.md",
+      "url": "http://pi.brandon3055.com/objects/00/002a6031550406f63b05828c3c242b5102e54f51",
+      "sha1": "002a6031550406f63b05828c3c242b5102e54f51",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/cores/chaotic_core_10e66.md",
+      "url": "http://pi.brandon3055.com/objects/47/47965e1d31e9aa974a5ae558cc744b9cab05c9eb",
+      "sha1": "47965e1d31e9aa974a5ae558cc744b9cab05c9eb",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/cores/awakened_core_c847a.md",
+      "url": "http://pi.brandon3055.com/objects/7a/7acc02ca32a27ff061b8e61bbf75b23ba7ea62a1",
+      "sha1": "7acc02ca32a27ff061b8e61bbf75b23ba7ea62a1",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/entity_detector_62746.md",
+      "url": "http://pi.brandon3055.com/objects/7d/7d3c1d5effd3f44b80b59f9ad5c0405cfe934c83",
+      "sha1": "7d3c1d5effd3f44b80b59f9ad5c0405cfe934c83",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/chaos_guardian_4c4fd.md",
+      "url": "http://pi.brandon3055.com/objects/fe/fef41970f006ced35d520f812e319360e49a09e9",
+      "sha1": "fef41970f006ced35d520f812e319360e49a09e9",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/awakened_draconium/dragon_heart_2caa6.md",
+      "url": "http://pi.brandon3055.com/objects/2e/2e67518018b51fb9b245591d33e9371cc1251684",
+      "sha1": "2e67518018b51fb9b245591d33e9371cc1251684",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/mob_soul_749d7.md",
+      "url": "http://pi.brandon3055.com/objects/ac/ac25f56d17e397a014f3afd178d40c0aab19f0b6",
+      "sha1": "ac25f56d17e397a014f3afd178d40c0aab19f0b6",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/potentiometer_7e259.md",
+      "url": "http://pi.brandon3055.com/objects/55/55665a595f1fe4afafe7db3f9bffd22e7bc6eb3f",
+      "sha1": "55665a595f1fe4afafe7db3f9bffd22e7bc6eb3f",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/draconium_chest_1c184.md",
+      "url": "http://pi.brandon3055.com/objects/39/39580863dd36009494897f57453f6fbe66c7a874",
+      "sha1": "39580863dd36009494897f57453f6fbe66c7a874",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/flow_gates_92a90.md",
+      "url": "http://pi.brandon3055.com/objects/b1/b143c2e101426340ab8d44d5edb7c01ec637526c",
+      "sha1": "b143c2e101426340ab8d44d5edb7c01ec637526c",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/energy_infuser_5b44a.md",
+      "url": "http://pi.brandon3055.com/objects/0e/0e31d2693ee64e74e63eea6d79992d9f0908ddb0",
+      "sha1": "0e31d2693ee64e74e63eea6d79992d9f0908ddb0",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/generator_cc462.md",
+      "url": "http://pi.brandon3055.com/objects/59/59dc575b16c542d2287c1fee980ad98ff3bd2d18",
+      "sha1": "59dc575b16c542d2287c1fee980ad98ff3bd2d18",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/awakened_draconium_5f7da.md",
+      "url": "http://pi.brandon3055.com/objects/a7/a7f381c5ed514a45d5e6233f7b53fcb44f0bddac",
+      "sha1": "a7f381c5ed514a45d5e6233f7b53fcb44f0bddac",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/ender_energy_manipulator_3811c.md",
+      "url": "http://pi.brandon3055.com/objects/7d/7d4bd65aa9f0be4c255e9c986524dd69dbb9e947",
+      "sha1": "7d4bd65aa9f0be4c255e9c986524dd69dbb9e947",
+      "lang": "ru_ru"
+    },
+    {
+      "file_path": "ru_ru/fusion_crafting_93212.md",
+      "url": "http://pi.brandon3055.com/objects/70/70545084dc89d6585d9c6b422df07eecd8b361cb",
+      "sha1": "70545084dc89d6585d9c6b422df07eecd8b361cb",
+      "lang": "ru_ru"
+    },
     {
       "file_path": "zh_cn/cores_b46c6.md",
       "url": "http://pi.brandon3055.com/objects/25/2554482bf6ea47bae1b318bb49dfc6612c43f77d",
@@ -1002,8 +1510,8 @@
     },
     {
       "file_path": "en_us/generator_cc462.md",
-      "url": "http://pi.brandon3055.com/objects/ec/eca8b710ee8a9dc4f808f8348f49b3a0d75f73c9",
-      "sha1": "eca8b710ee8a9dc4f808f8348f49b3a0d75f73c9",
+      "url": "http://pi.brandon3055.com/objects/ce/ce6353e35d4239484e73cafb827c14d78ce58ceb",
+      "sha1": "ce6353e35d4239484e73cafb827c14d78ce58ceb",
       "lang": "en_us"
     },
     {
