@@ -2,6 +2,9 @@ import mods.jei.JEI.removeAndHide as rh;
 # Custom recipes made by NillerMedDild
 	print("--- loading Mekanism.zs ---");
 
+# Starmetal Ingots
+	mods.mekanism.smelter.addRecipe(<astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:1>);
+	
 # Increasing Stacksize
 	<mekanism:tierinstaller>.maxStackSize = 16;
 	<mekanism:tierinstaller:1>.maxStackSize = 16;
