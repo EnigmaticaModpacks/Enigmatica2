@@ -4,17 +4,17 @@ print("--- loading RecipeConflicts.zs ---");
 	val marble = <ore:stoneMarble>;
 	
 # Building Tool / Builder's Wand Stone
-	recipes.remove(<minecolonies:sceptergold>);
-	recipes.addShapedMirrored("minecolonies_sceptergold_custom", 
-	<minecolonies:sceptergold>, 
+	recipes.remove(<structurize:sceptergold>);
+	recipes.addShapedMirrored("structurize_sceptergold_custom", 
+	<structurize:sceptergold>, 
 	[[null, null, <ore:ingotCopper>], 
 	[null, <minecraft:stick>, null], 
 	[<minecraft:stick>, null, null]]);
 
 # Scan Tool / Builder's Wand Iron
-	recipes.remove(<minecolonies:sceptersteel>);
-	recipes.addShapedMirrored("minecolonies_sceptersteel_custom", 
-	<minecolonies:sceptersteel>, 
+	recipes.remove(<structurize:sceptersteel>);
+	recipes.addShapedMirrored("structurize_sceptersteel_custom", 
+	<structurize:sceptersteel>, 
 	[[null, null, <ore:ingotTin>], 
 	[null, <minecraft:stick>, null], 
 	[<minecraft:stick>, null, null]]);
