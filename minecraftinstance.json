@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-07-19T17:46:01.0646139Z",
+  "lastPlayed": "2019-07-21T17:59:51.1784042Z",
   "manifest": {
     "minecraft": {
       "version": "1.12.2",
@@ -9310,7 +9310,7 @@
       "dateInstalled": "2019-06-28T17:29:20.3400951Z",
       "dateUpdated": "2019-07-19T16:58:50.4316539Z",
       "dateLastUpdateAttempted": "2019-07-19T16:58:50.4316539Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12699,7 +12699,7 @@
       "dateInstalled": "2019-07-01T18:42:43.5443659Z",
       "dateUpdated": "2019-07-19T16:58:07.0589995Z",
       "dateLastUpdateAttempted": "2019-07-19T16:58:07.0589995Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14606,7 +14606,7 @@
       "dateInstalled": "2019-07-07T16:14:55.4684681Z",
       "dateUpdated": "2019-07-19T16:58:32.6375545Z",
       "dateLastUpdateAttempted": "2019-07-19T16:58:32.6375545Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18314,7 +18314,7 @@
       "dateInstalled": "2019-01-29T14:04:18.5048398Z",
       "dateUpdated": "2019-04-30T07:48:29.8836709Z",
       "dateLastUpdateAttempted": "2019-04-30T07:48:29.8836709Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21850,7 +21850,7 @@
       "dateInstalled": "2019-06-28T17:29:20.3200859Z",
       "dateUpdated": "2019-07-19T17:44:11.4787363Z",
       "dateLastUpdateAttempted": "2019-07-19T17:44:11.4787363Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22700,14 +22700,14 @@
       "addonID": 228756,
       "gameInstanceID": "26510249-ede3-4c1f-a3e1-8347a94c4de1",
       "installedFile": {
-        "id": 2723143,
-        "displayName": "ironchest-1.12.2-7.0.69.845.jar",
-        "fileName": "ironchest-1.12.2-7.0.69.845.jar",
-        "fileDate": "2019-06-11T02:22:49.61Z",
-        "fileLength": 956629,
+        "id": 2744589,
+        "displayName": "ironchest-1.12.2-7.0.71.846.jar",
+        "fileName": "ironchest-1.12.2-7.0.71.846.jar",
+        "fileDate": "2019-07-20T02:05:37.663Z",
+        "fileLength": 956692,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2723/143/ironchest-1.12.2-7.0.69.845.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2744/589/ironchest-1.12.2-7.0.71.846.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -22720,7 +22720,7 @@
           },
           {
             "foldername": "cpw",
-            "fingerprint": 3694970659,
+            "fingerprint": 2564379792,
             "type": 0
           },
           {
@@ -22739,7 +22739,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3179873338,
+        "packageFingerprint": 357520002,
         "gameVersion": [
           "1.12.2"
         ],
@@ -22751,12 +22751,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "ironchest-1.12.2-7.0.69.845.jar"
+        "FileNameOnDisk": "ironchest-1.12.2-7.0.71.846.jar"
       },
       "dateInstalled": "2019-06-28T17:29:20.2950881Z",
-      "dateUpdated": "2019-07-01T18:42:01.7339215Z",
-      "dateLastUpdateAttempted": "2019-07-01T18:42:01.7339215Z",
-      "status": 5,
+      "dateUpdated": "2019-07-21T17:59:00.7087362Z",
+      "dateLastUpdateAttempted": "2019-07-21T17:59:00.7087362Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -23938,37 +23938,37 @@
       "addonID": 238856,
       "gameInstanceID": "26510249-ede3-4c1f-a3e1-8347a94c4de1",
       "installedFile": {
-        "id": 2742926,
-        "displayName": "BetterQuesting-3.5.305.jar",
-        "fileName": "BetterQuesting-3.5.305.jar",
-        "fileDate": "2019-07-17T10:29:58.183Z",
-        "fileLength": 1329871,
-        "releaseType": 2,
+        "id": 2711773,
+        "displayName": "BetterQuesting-3.5.300.jar",
+        "fileName": "BetterQuesting-3.5.300.jar",
+        "fileDate": "2019-05-16T07:12:05.593Z",
+        "fileLength": 1362734,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2742/926/BetterQuesting-3.5.305.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2711/773/BetterQuesting-3.5.300.jar",
         "isAlternate": false,
-        "alternateFileId": 0,
+        "alternateFileId": 2711774,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2982169646,
+            "fingerprint": 409661924,
             "type": 0
           },
           {
             "foldername": "betterquesting",
-            "fingerprint": 85648794,
+            "fingerprint": 3340094875,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 644025474,
+            "fingerprint": 4131091245,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 973197307,
+            "fingerprint": 1056182199,
             "type": 0
           },
           {
@@ -23977,7 +23977,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3747762407,
+        "packageFingerprint": 1697096500,
         "gameVersion": [
           "1.12.2"
         ],
@@ -23989,12 +23989,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "BetterQuesting-3.5.305.jar"
+        "FileNameOnDisk": "BetterQuesting-3.5.300.jar"
       },
       "dateInstalled": "2019-01-29T14:02:32.4712305Z",
-      "dateUpdated": "2019-07-19T17:44:51.460449Z",
-      "dateLastUpdateAttempted": "2019-07-19T17:44:51.460449Z",
-      "status": 4,
+      "dateUpdated": "2019-07-21T17:56:01.3057898Z",
+      "dateLastUpdateAttempted": "2019-07-21T17:56:01.3057898Z",
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -24009,27 +24009,27 @@
       "addonID": 238857,
       "gameInstanceID": "26510249-ede3-4c1f-a3e1-8347a94c4de1",
       "installedFile": {
-        "id": 2742927,
-        "displayName": "StandardExpansion-3.4.161.jar",
-        "fileName": "StandardExpansion-3.4.161.jar",
-        "fileDate": "2019-07-17T10:30:08.56Z",
-        "fileLength": 600579,
-        "releaseType": 2,
+        "id": 2725790,
+        "displayName": "StandardExpansion-3.4.159.jar",
+        "fileName": "StandardExpansion-3.4.159.jar",
+        "fileDate": "2019-06-17T12:05:03.793Z",
+        "fileLength": 606068,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2742/927/StandardExpansion-3.4.161.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2725/790/StandardExpansion-3.4.159.jar",
         "isAlternate": false,
-        "alternateFileId": 0,
+        "alternateFileId": 2725792,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2162202966,
+            "fingerprint": 4173811084,
             "type": 0
           },
           {
             "foldername": "bq_standard",
-            "fingerprint": 4034043996,
+            "fingerprint": 484711600,
             "type": 0
           },
           {
@@ -24039,7 +24039,7 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1431113004,
+            "fingerprint": 677643123,
             "type": 0
           },
           {
@@ -24048,7 +24048,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2988951669,
+        "packageFingerprint": 3836564112,
         "gameVersion": [
           "1.12.2"
         ],
@@ -24060,12 +24060,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "StandardExpansion-3.4.161.jar"
+        "FileNameOnDisk": "StandardExpansion-3.4.159.jar"
       },
       "dateInstalled": "2019-03-10T08:16:20.2785988Z",
-      "dateUpdated": "2019-07-19T17:44:43.7336377Z",
-      "dateLastUpdateAttempted": "2019-07-19T17:44:43.7336377Z",
-      "status": 4,
+      "dateUpdated": "2019-07-21T17:56:16.4522069Z",
+      "dateLastUpdateAttempted": "2019-07-21T17:56:16.4522069Z",
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -26730,7 +26730,7 @@
       "dateInstalled": "2019-06-28T17:29:20.3430895Z",
       "dateUpdated": "2018-06-28T17:29:20.3430895Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -27348,7 +27348,7 @@
       "dateInstalled": "2019-01-29T14:03:32.1674731Z",
       "dateUpdated": "2019-07-19T16:58:21.556021Z",
       "dateLastUpdateAttempted": "2019-07-19T16:58:21.556021Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -27885,7 +27885,7 @@
       "dateInstalled": "2019-06-28T17:29:20.3090898Z",
       "dateUpdated": "2018-06-28T17:29:20.3090898Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
