@@ -1,0 +1,48 @@
+Enigmatica2 1.69a to Enigmatica2 1.69b
+
+Updated 1 files:
+	Iron Chests (went from ironchest-1.12.2-7.0.69.845.jar to ironchest-1.12.2-7.0.71.846.jar):
+		ironchest-1.12.2-7.0.71.846.jar:
+			Bugfixes:
+
+			 * The long time bug of inventories disappearing when the chests are in the same chunk as a tinker's smeltery should FINALLY be fixed.
+			 * Hopefully fix the TPS issue regarding hoppers.
+
+Downgraded 2 files:
+	Better Questing (went from BetterQuesting-3.5.305.jar to BetterQuesting-3.5.300.jar):
+		BetterQuesting-3.5.305.jar:
+			Rewrote a significant amount of network handling to be less intensive on weak connections
+
+			Fixed incorrect conversion of 1.7.10 item ID numbers
+
+			Fixed party invitees being able to seize control during host migrations
+
+			Fixed crash when sliced textures are sized incorrectly
+
+			Fixed some NBT data being missing from item stacks
+
+			Fixed fluids rendered in GUIs not using their assigned colours
+
+			Fixed repeatable quest resets being sorted backwards
+
+			Fixed default load not supporting legacy formats
+
+			IMPORTANT NOTES:
+
+			- Shared party progression is currently not active. Functionality will return in a later build in a new form. Existing progress will be honoured however it will revert back to individual input.
+
+			- This build is NOT final and may undergo further changes to refine the new networking and resolve bugs that may have resulted from such extensive rewrites.
+
+	Better Questing - Standard Expansion (went from StandardExpansion-3.4.161.jar to StandardExpansion-3.4.159.jar):
+		StandardExpansion-3.4.161.jar:
+			Updated to support BQ 3.5.305
+
+			Fixed crash when JEI was not installed
+
+			IMPORTANT NOTES:
+
+			- Shared party progression is currently not active. Functionality will return in a later build in a new form. Existing progress will be honoured however it will revert back to individual input.
+
+			- This build is NOT final and may undergo further changes to refine the new networking and resolve bugs that may have resulted from such extensive rewrites.
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.15)
