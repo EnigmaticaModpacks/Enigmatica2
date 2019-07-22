@@ -133,7 +133,6 @@ import crafttweaker.item.IItemStack as IItemStack;
 	<ore:circuitBoard>.add(<immersiveengineering:material:27>);
 	
 # Amber Oredict
-	<ore:blockAmber>.add(<biomesoplenty:gem_block:7>);
 	<ore:blockAmber>.add(<thaumcraft:amber_block>);
 	<ore:blockAmber>.add(<thaumcraft:amber_brick>);
 

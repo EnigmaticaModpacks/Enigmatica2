@@ -1,4 +1,5 @@
 import mods.jei.JEI.removeAndHide as rh;
+	print("--- loading NuclearCraft.zs ---");
 
 # Lithium Ingot Mekanism Compat
 	mods.mekanism.smelter.addRecipe(<ic2:dust:11>, <nuclearcraft:ingot:6>);

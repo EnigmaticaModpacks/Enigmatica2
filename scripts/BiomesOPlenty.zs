@@ -14,5 +14,9 @@ import mods.jei.JEI.removeAndHide as rh;# Custom recipes made by NillerMedDild
 # Honey Block -> Honey Drop
 	mods.forestry.Centrifuge.addRecipe([(<forestry:honey_drop> * 5) % 80, (<thermalfoundation:material:99> % 25), (<thermalfoundation:material:100> % 25)], <biomesoplenty:honey_block>, 100);
 	mods.thermalexpansion.Centrifuge.addRecipe([(<forestry:honey_drop>) * 5 % 80, <thermalfoundation:material:99> % 25, <thermalfoundation:material:100> % 25], <biomesoplenty:honey_block>, null, 2000);
+	
+	rh(<biomesoplenty:gem_block:7>);
+	rh(<biomesoplenty:gem_ore:7>);
+	rh(<biomesoplenty:gem:7>);
 
 	print("--- BiomesOPlenty.zs initialized ---");
