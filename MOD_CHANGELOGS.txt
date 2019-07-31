@@ -1,48 +1,57 @@
-Enigmatica2 1.69a to Enigmatica2 1.69b
+Enigmatica2 1.69b to Enigmatica2 1.70
 
-Updated 1 files:
-	Iron Chests (went from ironchest-1.12.2-7.0.69.845.jar to ironchest-1.12.2-7.0.71.846.jar):
-		ironchest-1.12.2-7.0.71.846.jar:
+Updated 6 files:
+	EnderCore (went from EnderCore - 1.12.2-0.5.59 to EnderCore - 1.12.2-0.5.65):
+		EnderCore - 1.12.2-0.5.65:
+			EnderCore 1.12.2-0.5.65
+
+	Iron Chests (went from ironchest-1.12.2-7.0.71.846.jar to ironchest-1.12.2-7.0.72.847.jar):
+		ironchest-1.12.2-7.0.72.847.jar:
 			Bugfixes:
 
 			 * The long time bug of inventories disappearing when the chests are in the same chunk as a tinker's smeltery should FINALLY be fixed.
 			 * Hopefully fix the TPS issue regarding hoppers.
 
-Downgraded 2 files:
-	Better Questing (went from BetterQuesting-3.5.305.jar to BetterQuesting-3.5.300.jar):
-		BetterQuesting-3.5.305.jar:
-			Rewrote a significant amount of network handling to be less intensive on weak connections
+	McJtyLib (went from McJtyLib - 1.12-3.5.3 to McJtyLib - 1.12-3.5.4):
+		McJtyLib - 1.12-3.5.4:
+			 - Fixed a problem when receiving packets from the client where it would sometimes process things on the wrong thread
 
-			Fixed incorrect conversion of 1.7.10 item ID numbers
+	Phosphor (went from Phosphor 0.2.4 to Phosphor 0.2.6):
+		Phosphor 0.2.6:
+			This update addresses a small issue in Phosphor 0.2.5 where the mod could load on incompatible versions of SpongeForge.
 
-			Fixed party invitees being able to seize control during host migrations
+			- Improved performance by using direct access into chunk sections when performing light updates
 
-			Fixed crash when sliced textures are sized incorrectly
+			- Fixed compatibility issues with recent SpongeForge releases (RC3844 and newer)
 
-			Fixed some NBT data being missing from item stacks
+			- Fixed an issue where faulty mods could get around Phosphor's sanity checks and crash the game
 
-			Fixed fluids rendered in GUIs not using their assigned colours
+			- Reduced the amount of logging that occurs at the INFO level to keep your terminal windows clean
 
-			Fixed repeatable quest resets being sorted backwards
+			- Added a one-time message that is displayed after the mod is installed which links out to my Patreon. This can be disable in the configuration file by setting show_patreon_message to false.
+		Phosphor 0.2.5:
+			- Improved performance by using direct access into chunk sections when performing light updates
 
-			Fixed default load not supporting legacy formats
+			- Fixed compatibility issues with recent SpongeForge releases (RC3844 and newer)
 
-			IMPORTANT NOTES:
+			- Fixed an issue where faulty mods could get around Phosphor's sanity checks and crash the game
 
-			- Shared party progression is currently not active. Functionality will return in a later build in a new form. Existing progress will be honoured however it will revert back to individual input.
+			- Reduced the amount of logging that occurs at the INFO level to keep your terminal windows clean
 
-			- This build is NOT final and may undergo further changes to refine the new networking and resolve bugs that may have resulted from such extensive rewrites.
+			- Added a one-time message that is displayed after the mod is installed which links out to my Patreon. This can be disable in the configuration file by setting show_patreon_message to false.
 
-	Better Questing - Standard Expansion (went from StandardExpansion-3.4.161.jar to StandardExpansion-3.4.159.jar):
-		StandardExpansion-3.4.161.jar:
-			Updated to support BQ 3.5.305
+	RFTools (went from RFTools - 1.12-7.71 to RFTools - 1.12-7.72):
+		RFTools - 1.12-7.72:
+			 - Fixed modular storage so it works nicely with the new selection feature in McJtyLib
+			 - Fixed the scanner so that it doesn't cause server-side crashes for client-siude code
+			 - Joseph fixed a crash involving the matter transmitter
+			 - Fixed the Builder so that it no longer causes crashes when enabling support mode for large areas
 
-			Fixed crash when JEI was not installed
+	The Lost Cities (went from LostCities - 1.12-2.0.20 to LostCities - 1.12-2.0.21):
+		LostCities - 1.12-2.0.21:
+			 - Joseph added a more useful error message when invalid parts are configured
 
-			IMPORTANT NOTES:
-
-			- Shared party progression is currently not active. Functionality will return in a later build in a new form. Existing progress will be honoured however it will revert back to individual input.
-
-			- This build is NOT final and may undergo further changes to refine the new networking and resolve bugs that may have resulted from such extensive rewrites.
+Removed 1 files:
+	- /dank/null
 
 * Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.15)
