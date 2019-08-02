@@ -62,7 +62,11 @@
     "harvestcraft:milletseeditem": "1*minecraft:emerald",
     "harvestcraft:mulberryseeditem": "1*minecraft:emerald",
     "harvestcraft:taroseeditem": "1*minecraft:emerald",
-	"minecraft:mooshroom_spawn_egg": "10*minecraft:emerald"
+    "minecraft:mooshroom_spawn_egg": "10*minecraft:emerald",
+    "natura:nether_sapling": "3*minecraft:emerald",
+    "natura:nether_sapling:1": "3*minecraft:emerald",
+    "natura:nether_sapling:2": "3*minecraft:emerald",
+    "natura:nether_sapling2": "3*minecraft:emerald"
   },
   "defaults amount": {
     "Vanilla Seeds": 1,
