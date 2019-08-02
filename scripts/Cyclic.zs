@@ -1,3 +1,4 @@
+import mods.jei.JEI.removeAndHide as rh;
 # Custom recipes made by NillerMedDild
 	print("--- loading Cyclic.zs ---");
 	
@@ -5,6 +6,7 @@
 	
 	recipes.remove(<cyclicmagic:purple_helmet>);
 	recipes.remove(<cyclicmagic:storage_bag>);
+	rh(<cyclicmagic:heart_toxic>);
 	
 # *======= Adding Recipes =======*
 
