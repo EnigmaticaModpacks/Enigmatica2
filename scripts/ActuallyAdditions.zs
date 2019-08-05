@@ -1,10 +1,6 @@
 # Custom recipes made by NillerMedDild
 	print("--- loading ActuallyAdditions.zs ---");
 	
-#Black Quartz Block to Black Quartz
-	recipes.addShapeless("Black Quartz Block to Black Quartz", 
-	<actuallyadditions:item_misc:5> * 4, [<ore:blockBlackQuartz>]);
-	
 # *======= Variables =======*
 	
 	val rubyblock = <biomesoplenty:gem_block:1>;
@@ -14,7 +10,20 @@
 	val peridotblock = <biomesoplenty:gem_block:2>;
 	val sapphireblock = <biomesoplenty:gem_block:6>;
 	val amberblock = <biomesoplenty:gem_block:7>;
-	
+	val blockBlackQuartz = <actuallyadditions:block_misc:2>;
+	val blockBlackQuartzPillar = <actuallyadditions:block_misc:0>;
+	val blockBlackQuartzChiseled = <actuallyadditions:block_misc:1>;
+
+# *======= Black Quartz =======*
+
+	#Black Quartz Block to Black Quartz
+	recipes.addShapeless("Block of Black Quartz to Black Quartz", 
+	<actuallyadditions:item_misc:5> * 4, [blockBlackQuartz]);
+	recipes.addShapeless("Chiseled Block of Black Quartz to Black Quartz", 
+	<actuallyadditions:item_misc:5> * 4, [blockBlackQuartzChiseled]);
+	recipes.addShapeless("Pillar of Black Quartz to Black Quartz", 
+	<actuallyadditions:item_misc:5> * 2, [blockBlackQuartzPillar]);
+
 # *======= Grinder =======*
 	#OutputStack, InputStack, (Optional)Output2Stack, (Optional)Output2Chance
 	#mods.actuallyadditions.Crusher.addRecipe(<minecraft:iron_ore>, <minecraft:iron_ingot>, <minecraft:stone>, 50);
