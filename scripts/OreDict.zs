@@ -3,6 +3,8 @@ import crafttweaker.item.IItemStack as IItemStack;
 # Custom recipes made by NillerMedDild
 	print("--- loading OreDict.zs ---");
 
+	<ore:stickStone>.add(<tconstruct:stone_stick>);
+
 # Removing Pam's in-world Apple from cropApple
 	<ore:cropApple>.remove(<harvestcraft:pamapple>);
 	

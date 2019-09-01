@@ -1,24 +1,37 @@
-# Custom recipes made by NillerMedDild
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 print("--- loading ExtraUtilities2.zs ---");
 	
 # Bag of Holding
 	recipes.remove(<extrautils2:bagofholding>);
-	
-# *======= Crusher =======*
 
-//mods.extrautils2.Crusher.add(IItemStack output, IItemStack input, @Optional IItemStack secondaryOutput, @Optional float secondaryChance);
-#mods.extrautils2.Crusher.add(<minecraft:gold_ingot> * 9, <minecraft:gold_block>, <minecraft:iron_ingot>, 0.1f);
-#mods.extrautils2.Crusher.add(<minecraft:iron_ingot> * 9, <minecraft:iron_block>);
+# Credit Freedbot, https://github.com/NillerMedDild/Enigmatica2/issues/496
+val ringChicksEntry = <ore:ringChicks>;
+ringChicksEntry.add([
+	<extrautils2:goldenlasso>.withTag({Animal: {id: "minecraft:chicken"}, No_Place: 1 as byte}),
 
-//mods.extrautils2.Crusher.remove(IItemStack outout);
-#mods.extrautils2.Crusher.remove(<minecraft:redstone>);
+	<extrautils2:goldenlasso>.withTag({Animal: {id: "animania:chick_leghorn"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:chick_orpington"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:chick_plymouth_rock"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:chick_rhode_island_red"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:chick_wyandotte"}, No_Place: 1 as byte}),
 
-# *======= Resonator =======*
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:hen_leghorn"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:hen_orpington"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:hen_plymouth_rock"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:hen_rhode_island_red"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:hen_wyandotte"}, No_Place: 1 as byte}),
 
-//1 GP = 100 energy
-//mods.extrautils2.Resonator.add(IItemStack output, IItemStack input, int energy, @Optional boolean addOwnerTag);
-#mods.extrautils2.Resonator.add(<minecraft:redstone_block>, <minecraft:gold_block>, 100);
-#mods.extrautils2.Resonator.add(<minecraft:gold_block>, <minecraft:iron_block>, 200, false);
-
-//mods.extrautils2.Resonator.remove(IItemStack outout);
-#mods.extrautils2.Resonator.remove(<minecraft:redstone>);
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:rooster_leghorn"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:rooster_orpington"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:rooster_plymouth_rock"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:rooster_rhode_island_red"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:rooster_wyandotte"}, No_Place: 1 as byte})
+]);
+recipes.removeShaped(<extrautils2:chickenring>);
+recipes.addShaped(<extrautils2:chickenring>, 
+[[<ore:feather>, <ore:ingotIron>, <ore:feather>], 
+[<ore:ingotIron>, ringChicksEntry, <ore:ingotIron>], 
+[<extrautils2:ingredients>, <ore:ingotIron>, <extrautils2:ingredients>]]);

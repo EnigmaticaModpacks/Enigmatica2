@@ -5,7 +5,9 @@ import mods.jei.JEI.removeAndHide as rh;
 # *======= Variables =======*
 	
 	val wool = <minecraft:wool:*>;
-	
+# Readding Bread recipe to make Minecolony Bakers happy
+	recipes.addShaped("Bread", <minecraft:bread>, [[<ore:listAllgrain>, <ore:listAllgrain>, <ore:listAllgrain>]]);
+
 # Quark Marble Wall Oredicted version
 	recipes.remove(<quark:marble_wall>);
 	recipes.addShaped("Quark Marble Wall", 

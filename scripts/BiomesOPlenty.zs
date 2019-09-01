@@ -1,8 +1,9 @@
 import mods.jei.JEI.removeAndHide as rh;# Custom recipes made by NillerMedDild
 	print("--- loading BiomesOPlenty.zs ---");
 
-## *======= Recipes =======*
-
+# Remove & Hide BoP Amber. I put it here because I'm lazy.
+	rh(<biomesoplenty:gem:7>);
+	
 # Honey
 	recipes.addShapeless(<biomesoplenty:honey_block> * 3, [<biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>]);
 	recipes.addShapeless(<biomesoplenty:hive:3>, [<biomesoplenty:hive:1>, <biomesoplenty:filled_honeycomb>]);
