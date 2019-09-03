@@ -1,57 +1,234 @@
-Enigmatica2 1.69b to Enigmatica2 1.70
+Enigmatica2 1.70 to Enigmatica2 1.71
 
-Updated 6 files:
-	EnderCore (went from EnderCore - 1.12.2-0.5.59 to EnderCore - 1.12.2-0.5.65):
-		EnderCore - 1.12.2-0.5.65:
-			EnderCore 1.12.2-0.5.65
+Updated 7 files:
+	Better Questing (went from BetterQuesting-3.5.300.jar to BetterQuesting-3.5.309.jar):
+		BetterQuesting-3.5.309.jar:
+			Fixed item selection screen crashing when air is given an ore dictionary name
 
-	Iron Chests (went from ironchest-1.12.2-7.0.71.846.jar to ironchest-1.12.2-7.0.72.847.jar):
-		ironchest-1.12.2-7.0.72.847.jar:
-			Bugfixes:
+			Fixed potential threading issue with unexpected shutdowns clearing databases before saving them
 
-			 * The long time bug of inventories disappearing when the chests are in the same chunk as a tinker's smeltery should FINALLY be fixed.
-			 * Hopefully fix the TPS issue regarding hoppers.
+			Changed file writing process slightly
 
-	McJtyLib (went from McJtyLib - 1.12-3.5.3 to McJtyLib - 1.12-3.5.4):
-		McJtyLib - 1.12-3.5.4:
-			 - Fixed a problem when receiving packets from the client where it would sometimes process things on the wrong thread
+			Added texture_empty to possible theme texture options to hide GUI elements entirely
+		BetterQuesting-3.5.308.jar:
+			Fixed quest line reordering deleting everything instead
 
-	Phosphor (went from Phosphor 0.2.4 to Phosphor 0.2.6):
-		Phosphor 0.2.6:
-			This update addresses a small issue in Phosphor 0.2.5 where the mod could load on incompatible versions of SpongeForge.
+			Fixed quest line deletions not working
 
-			- Improved performance by using direct access into chunk sections when performing light updates
+			Fixed quest tooltips not updating timers
 
-			- Fixed compatibility issues with recent SpongeForge releases (RC3844 and newer)
+			Changed repeat timers to be based on real time (still measured in ticks)
 
-			- Fixed an issue where faulty mods could get around Phosphor's sanity checks and crash the game
+			Changed test theme scrollbars and inner panels
 
-			- Reduced the amount of logging that occurs at the INFO level to keep your terminal windows clean
+			Added the ability to switch between repeating based on completion time or fixed intervals (e.g. resetting every hour on the hour)
+		BetterQuesting-3.5.307.jar:
+			Fixed party invites not sending due to missing expiry timestamp
 
-			- Added a one-time message that is displayed after the mod is installed which links out to my Patreon. This can be disable in the configuration file by setting show_patreon_message to false.
-		Phosphor 0.2.5:
-			- Improved performance by using direct access into chunk sections when performing light updates
+			Fixed invitations not syncing info about the inviting party
 
-			- Fixed compatibility issues with recent SpongeForge releases (RC3844 and newer)
+			Fixed party database not resetting when changing servers/worlds
 
-			- Fixed an issue where faulty mods could get around Phosphor's sanity checks and crash the game
+			Fixed invitation database not resetting when changing servers/worlds
 
-			- Reduced the amount of logging that occurs at the INFO level to keep your terminal windows clean
+			Fixed desynced parties holding clients hostage
 
-			- Added a one-time message that is displayed after the mod is installed which links out to my Patreon. This can be disable in the configuration file by setting show_patreon_message to false.
+			Fixed GUIs not updating when names are updated
 
-	RFTools (went from RFTools - 1.12-7.71 to RFTools - 1.12-7.72):
-		RFTools - 1.12-7.72:
-			 - Fixed modular storage so it works nicely with the new selection feature in McJtyLib
-			 - Fixed the scanner so that it doesn't cause server-side crashes for client-siude code
-			 - Joseph fixed a crash involving the matter transmitter
-			 - Fixed the Builder so that it no longer causes crashes when enabling support mode for large areas
+			Fixed valid invites not appearing if the party hasn't synced yet
 
-	The Lost Cities (went from LostCities - 1.12-2.0.20 to LostCities - 1.12-2.0.21):
-		LostCities - 1.12-2.0.21:
-			 - Joseph added a more useful error message when invalid parts are configured
+			Fixed item selection editor forgetting the ore dictionary setting
 
-Removed 1 files:
-	- /dank/null
+			Fixed quest line icons not supporting ore dictionary cycling
+		BetterQuesting-3.5.305.jar:
+			Rewrote a significant amount of network handling to be less intensive on weak connections
+
+			Fixed incorrect conversion of 1.7.10 item ID numbers
+
+			Fixed party invitees being able to seize control during host migrations
+
+			Fixed crash when sliced textures are sized incorrectly
+
+			Fixed some NBT data being missing from item stacks
+
+			Fixed fluids rendered in GUIs not using their assigned colours
+
+			Fixed repeatable quest resets being sorted backwards
+
+			Fixed default load not supporting legacy formats
+
+			IMPORTANT NOTES:
+
+			- Shared party progression is currently not active. Functionality will return in a later build in a new form. Existing progress will be honoured however it will revert back to individual input.
+
+			- This build is NOT final and may undergo further changes to refine the new networking and resolve bugs that may have resulted from such extensive rewrites.
+
+	Better Questing - Standard Expansion (went from StandardExpansion-3.4.159.jar to StandardExpansion-3.4.164.jar):
+		StandardExpansion-3.4.164.jar:
+			Fixed advancement tasks not using partial writes
+
+			Fixed interact tasks breaking when attempting to sync partial data
+
+			Added shared progress support back to crafting tasks
+
+			Notes:
+
+			I have been constantly re-thinking how to do progression sharing, dealing with offline players, ones that don't have the same unlocked quests, dupe exploitation, etc.
+
+			There are a few solutions I have come up with but some may have more damaging side effects than others or not be backwards compatible. I encourage anyone who wants to give their input on these issues to contact me on the Discord and hopefully I can think of a new solution.
+
+			PS: No I'm not going back to the old system where you could drag users to end game rewards. It was way too exploitable and has already been abused by players on servers.
+		StandardExpansion-3.4.163.jar:
+			Fixed loot chests throwing an error and disappearing
+
+			Fixed location task inversion not including dimension checks
+		StandardExpansion-3.4.161.jar:
+			Updated to support BQ 3.5.305
+
+			Fixed crash when JEI was not installed
+
+			IMPORTANT NOTES:
+
+			- Shared party progression is currently not active. Functionality will return in a later build in a new form. Existing progress will be honoured however it will revert back to individual input.
+
+			- This build is NOT final and may undergo further changes to refine the new networking and resolve bugs that may have resulted from such extensive rewrites.
+
+	Building Gadgets (went from BuildingGadgets v2.6.8 to BuildingGadgets-2.7.3-hotfix):
+		BuildingGadgets-2.7.3-hotfix:
+			See the full [CHANGELOG](https://github.com/Direwolf20-MC/BuildingGadgets/blob/master/CHANGELOG.md)
+
+			[2.7.3-hotfix - 1.12.2] - 2019-08-26
+
+			Fixed
+
+			 * Fixed the Destruction Gadget in Connected Surface Mode always using a depth of 1, regardless of the setting
+			 * Fixed the Destruction Gadget in Connected Surface Mode ignoring bed-rock and other in-destructible things (including mod prevented Blocks)
+			 * Fixed the Destruction Gadget ignoring the fuzzy Mode setting completly
+		BuildingGadgets-2.7.2.jar:
+			See the full [CHANGELOG](https://github.com/Direwolf20-MC/BuildingGadgets/blob/master/CHANGELOG.md)
+
+			[2.7.2 - 1.12.2] - 2019-08-09
+
+			[](https://github.com/Direwolf20-MC/BuildingGadgets/blob/master/CHANGELOG.md#fixed)Fixed
+
+			 * Fixed the BuildingGadget's Placement-Preview sometimes being missing, when Botania and Baubles is present
+		BuildingGadgets-2.7.1.jar:
+			See the full [CHANGELOG](https://github.com/Direwolf20-MC/BuildingGadgets/blob/master/CHANGELOG.md)
+
+			[2.7.1 - 1.12.2] - 2019-07-23
+
+			Fixed
+
+			 * Fixed an issue causing the game to crash when using the material list key on anything but the Copy&Paste Gadget or air.
+		BuildingGadgets-2.7.0.jar:
+			Full Changelog [here](https://github.com/Direwolf20-MC/BuildingGadgets/blob/master/CHANGELOG.md)
+
+			Note:
+
+			A note for this update, due to the pure amount of changes made between this version and the previous version we're just going to put it out there that this one might be a bit buggy! 🐛 If you encounter any issues with how the mod used to work to how it works now please be sure to create a new issue on the [Github Repo](https://github.com/Direwolf20-MC/BuildingGadgets/issues)
+
+			Added
+
+			 *  Added a new and fancy Material List GUI for templates. Simply shift right click with a template in your hand to see the list.
+			 * With this you can also now copy the material list right into your clipboard!
+			 * Some people where finding it hard to open the Copy & Paste Gadgets GUI in tight spaces so to help with this we've added a button in the Radial Menu (G) to go straight to it :)
+			Changed
+
+			 *  The Building and Exchanging Gadgets mode System, to make it more open for future additions. Thanks @hnOsmium001 for his PR.
+			 * This also resulted in a lot of changes - please report any bugs you might encounter as a lot of the core functionality has been changed in this version.
+			 * Updated the Destruction Gadget's GUI as it needed some scaling and usability work. It's better but it's not pretty! Soz.
+			 * The destruction gadget now uses a different kind of magic for finding connected blocks. This should resolve any issues people have been having with less powerful computers and large selection ranges.
+			 * Added slightly better handling of random crashes to hopefully reduce them... Wish us luck.
+			Fixed
+
+			 * Fix typo when pasting a link
+			 * Fixed an issue where linked inventories (Yeah, you can link loads of them now. Just shift right click with a supported Gadget!) would stay highlighted in different dimensions.
+			 * Fixed an odd one where linked inventories would throw out items if the dimension got deleted.
+			 * Fixed an exploit where the Exchanging Gadget could be used as a way to mine large areas quickly.
+			 * Fixed an issue with the new modes system using the Building Gadgets range in Build To Me mode which wasn't even close to right.
+			For Devs
+
+			 * We're now firing Break & Place block events for each of our tools semi correctly. We've not been able to do large scale tests so if you have any more issues then let us know.
+
+	Draconic Evolution (went from Draconic-Evolution-1.12.2-2.3.23.345-universal to Draconic-Evolution-1.12.2-2.3.24.349-universal):
+		Draconic-Evolution-1.12.2-2.3.24.349-universal:
+			######## 2.3.24.349 ########
+			-Fixed Draconium chest furnace freezing when backed up.
+			-Fixed furnace in Draconium chest not pulling from the last slot.
+
+			######## 2.3.23.345 ########
+			-ReFixed Baubles crash. (Seems last fix got lost in the mail)
+			-Fixed broken creative flux capacitor
+
+			######## 2.3.22.343 ########
+			-Fixed crash when Baubles is not installed.
+			-Optimized retro gen a little.
+			-Fixed some compounding residual particle lag.
+
+	Immersive Engineering (went from Immersive Engineering 0.12 - 89 to Immersive Engineering 0.12 - 91)
+
+	JourneyMap (went from journeymap-1.12.2-5.5.5b9 to journeymap-1.12.2-5.5.5):
+		journeymap-1.12.2-5.5.5:
+			JourneyMap 1.12.2-5.5.5 for Minecraft 1.12.2
+
+			Requirements:
+
+			 * Java 8
+			 * Minecraft 1.12.2
+			 * Forge 14.23.5.2768
+			General Information:
+
+			 * See [http://journeymap.info/](https://www.curseforge.com/linkout?remoteUrl=http%253a%252f%252fjourneymap.info%252f) for information about how to install and use this mod, rules about inclusion in modpacks, translation, etc.
+			 * See [http://journeymap.info/Support](https://www.curseforge.com/linkout?remoteUrl=http%253a%252f%252fjourneymap.info%252fSupport) for information on getting technical support.
+			 * Implements [JourneyMap API v1.12-1.4](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fbitbucket.org%252fTeamJM%252fjourneymap-api)
+			CHANGELOG (2019-08-05-14:29:20):
+
+			Release 5.5.5
+
+			 * Feature: Waypoint options allows custom server teleport command. Can handle {x}{y}{x}{name}{dim} fields.
+			 * Feature: Setting log level to 'OFF' prevents Journeymap log info displaying in the [F3] Debug Screen.
+			 * Feature: Webmap - Visual indication if following player.
+			 * Feature: New Server Admin screen to modify Journeymap's server settings.
+			 * Feature: With server installed player radar shows players outside of local range; Configurable for all players or ops/admins.
+			 * Feature: Changed how configs are sent to the client to work with the new Panel. This means JM will be disabled when connecting to servers that have JM 5.5.4 or lower installed.
+			 * Feature: New mini-map Info Slots: Dimension, Light Level, Region, Game Time 12hr, Game Time 24hr
+			 * Feature: Region info in Fullscreen map following the mouse pointer(only when the mouse is near the player).
+			 * Feature: Enable or Disable all waypoints with a hotkey(Default:KEY_Z).
+			 * Feature: Two new grid options via Grid Editor: Region, Chunk and Region.
+			 * Server-Feature: Admins can now disable or enable teleporting for dimensions. Users cannot teleport to, from, or within if disabled.
+			 * Integration: Pixelmon-Reforged icon retrieval optimizations(Thanks Reforged team!). Pixelmon-Reforged v7.0.6 or higher required.
+			 * Integration: Proper handling of block rendering done by CodeChickenLib.
+			 * Integration: Resolved issues with minimap not working with LabyMod
+			 * Change: Death waypoint 'X' will display at y:2 if player dies below y:2.
+			 * Change: Webmap - Port selection is now a text box.
+			 * Locale: Updated ru_RU.(Thanks Vlad Imangulov)
+			 * Locale: Added ru_RU Splash text.(Thanks Vlad Imangulov)
+			 * Locale: Updated fr_FR (Thanks Neerwan)
+			 * Locale: Updated zh_CN (Thanks Rick Zhong)
+			 * Bugfix: Crash when using the chat function on waypoints with names that start with special characters.
+			 * Bugfix: Saving the world with Unicode characters like Chinese using the save folder "~".
+			 * Bugfix: ModInfo respects minecraft snooper settings.
+			 * Bugfix: Webmap: Waypoints not showing up.
+			 * Bugfix: Removed some unneeded error logging.
+			 * Bugfix: Setting topo contour config to false causes NPE.
+			 * Bugfix: Missing small arrow icon when set to small icons if entity has no icon.
+			 * Bugfix: Surface mapping and Topography mapping respect the configs if disabled.
+			 * Bugfix: Webmap - Better handling of browser caching.
+			 * Bugfix: Waypoint Editor dimension list not scrollable.
+
+	Project Intelligence (went from ProjectIntelligence-1.12.2-1.0.7.24-universal to ProjectIntelligence-1.12.2-1.0.8.25-universal):
+		ProjectIntelligence-1.12.2-1.0.8.25-universal:
+			######## 1.0.8.25 ########
+			-Fixed crash related to back button.
+
+			######## 1.0.7.24 ########
+			-Fixed issue with text wrapping and random unintended spaces in the middle of sentences.
+			-Added button to go to previous page to the top of the page list.
+
+			######## 1.0.6.22 ########
+			-Fixed broken language selection list. (filter was broken)
+			-Added ability to override mod documentation version.
+			-Fixed error when loading a default style preset with unsaved changes to current preset.
+			-Fixed minor issue with invalid page list scroll bar under certain circumstances.
 
 * Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.15)

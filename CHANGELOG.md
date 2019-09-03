@@ -1,13 +1,35 @@
 # Enigmatica 2 Changelog
 
+## [1.71](https://github.com/NillerMedDild/Enigmatica2/tree/1.71) (2019-09-01)
+**Fixed bugs:**
+
+- Iron Shulker Box causes crash [\#533](https://github.com/NillerMedDild/Enigmatica2/issues/533) [[Marker: Config](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Config)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
+- Backslashes in path names in server zip [\#529](https://github.com/NillerMedDild/Enigmatica2/issues/529) [[Status: In Progress](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20In%20Progress)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+- Better Questing: Unable to invite others to party [\#522](https://github.com/NillerMedDild/Enigmatica2/issues/522) [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
+- Cannot craft MalisisDoors’ vanilla wood trapdoors [\#412](https://github.com/NillerMedDild/Enigmatica2/issues/412) [[Marker: Script](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Script)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+- Placing ArchitectureCraft blocks inside on a /dank/null causes client crash [\#286](https://github.com/NillerMedDild/Enigmatica2/issues/286) [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
+- Ignore NBT data for Turbine Valve [\#553](https://github.com/NillerMedDild/Enigmatica2/pull/553) [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)] ([mpavkovic](https://github.com/mpavkovic))
+- Ignore NBT data for Rotary Condensentrator [\#542](https://github.com/NillerMedDild/Enigmatica2/pull/542) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)] ([mpavkovic](https://github.com/mpavkovic))
+- Fixed Trapdoors Conflict [\#541](https://github.com/NillerMedDild/Enigmatica2/pull/541) [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)] ([SWATr](https://github.com/SWATr))
+
+**Closed issues:**
+
+- Crashing while searching in JEI [\#550](https://github.com/NillerMedDild/Enigmatica2/issues/550)
+- Opening GUI Causes crash? [\#546](https://github.com/NillerMedDild/Enigmatica2/issues/546)
+- Server I/O Permission Issues [\#532](https://github.com/NillerMedDild/Enigmatica2/issues/532) [[Priority: Critical](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Critical)]
+- Readd Bread Recipe [\#425](https://github.com/NillerMedDild/Enigmatica2/issues/425) [[Marker: Script](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Script)] [[Type: Maintenance](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Maintenance)]
+
+**Merged pull requests:**
+
+- Quest Book Update [\#558](https://github.com/NillerMedDild/Enigmatica2/pull/558) ([Discomanco](https://github.com/Discomanco))
+- Fix duplication bug with Black Quartz block to item conversion [\#543](https://github.com/NillerMedDild/Enigmatica2/pull/543) ([mpavkovic](https://github.com/mpavkovic))
+- Allow players to buy Natura nether saplings [\#538](https://github.com/NillerMedDild/Enigmatica2/pull/538) ([mpavkovic](https://github.com/mpavkovic))
+
 ## [1.70](https://github.com/NillerMedDild/Enigmatica2/tree/1.70) (2019-07-22)
 **Fixed bugs:**
 
 - Loot Chest - Disappear when being used [\#521](https://github.com/NillerMedDild/Enigmatica2/issues/521) [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
 - Quest - Got Grout ? - Require Air [\#520](https://github.com/NillerMedDild/Enigmatica2/issues/520) [[Marker: Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Quest)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
-- Backslashes in path names in server zip [\#529](https://github.com/NillerMedDild/Enigmatica2/issues/529) [[Status: In Progress](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20In%20Progress)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
-- Better Questing: Unable to invite others to party [\#522](https://github.com/NillerMedDild/Enigmatica2/issues/522) [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
-- Server I/O Permission Issues [\#532](https://github.com/NillerMedDild/Enigmatica2/issues/532) [[Priority: Critical](https://github.com/NillerMedDild/Enigmatica2/labels/Priority:%20Critical)]
 
 ## [1.69b](https://github.com/NillerMedDild/Enigmatica2/tree/1.69b) (2019-07-21)
 **Fixed bugs:**
