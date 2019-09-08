@@ -10212,7 +10212,13 @@
             },
             "2:10": {
               "id:8": "mekanism:basicblock2",
-              "Count:3": 128,
+              "Count:3": 64,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "3:10": {
+              "id:8": "mekanism:basicblock2",
+              "Count:3": 64,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -22917,7 +22923,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Got Grout?",
-          "desc:8": "Before we can move on from crude tools and weapons, we need to make the smeltery to make all of the good stuff.\n\nTo start out, lets get some §l\u0027Grout\u0027§0 made. Specifically two stacks. To make §l\u0027Grout\u0027§0, you will need §l\u0027Clay\u0027§0, §l\u0027Sand\u0027§0, and §l\u0027Gravel\u0027§0. If you need the recipe, check §lJEI§0 or §l\u0027Materials and You\u0027§0 for more details."
+          "desc:8": "Before we can move on from crude tools and weapons, we need to make the smeltery to make all of the good stuff.\n\nTo start out, lets get some §l\u0027Grout\u0027§0 made. A stack should do nicely, but two stacks would be great. To make §l\u0027Grout\u0027§0, you will need §l\u0027Clay\u0027§0, §l\u0027Sand\u0027§0, and §l\u0027Gravel\u0027§0. If you need the recipe, check §lJEI§0 or §l\u0027Materials and You\u0027§0 for more details."
         }
       },
       "tasks:9": {
@@ -22931,7 +22937,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "tconstruct:soil",
-              "Count:3": 128,
+              "Count:3": 64,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -23594,7 +23600,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Smeltery Building Blocks",
-          "desc:8": "In order to make all of the things needed to make the smeltery, we need some §l\u0027Seared Bricks\u0027§0. A LOT of them.\n\nTwo stacks should be sufficient."
+          "desc:8": "In order to make all of the things needed to make the smeltery, we need some §l\u0027Seared Bricks\u0027§0. A LOT of them.\n\nOne stack should be sufficient."
         }
       },
       "tasks:9": {
@@ -23608,7 +23614,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "tconstruct:materials",
-              "Count:3": 128,
+              "Count:3": 64,
               "OreDict:8": "",
               "Damage:3": 0
             }
