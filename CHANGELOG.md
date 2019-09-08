@@ -1,5 +1,11 @@
 # Enigmatica 2 Changelog
 
+## [Unreleased](https://github.com/NillerMedDild/Enigmatica2/tree/HEAD)
+
+**Fixed bugs:**
+
+- Quest - Got Grout ? - Require Air [\#520](https://github.com/NillerMedDild/Enigmatica2/issues/520) [[Marker: Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Quest)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+
 ## [1.71](https://github.com/NillerMedDild/Enigmatica2/tree/1.71) (2019-09-01)
 **Fixed bugs:**
 
@@ -29,7 +35,6 @@
 **Fixed bugs:**
 
 - Loot Chest - Disappear when being used [\#521](https://github.com/NillerMedDild/Enigmatica2/issues/521) [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
-- Quest - Got Grout ? - Require Air [\#520](https://github.com/NillerMedDild/Enigmatica2/issues/520) [[Marker: Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Quest)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
 
 ## [1.69b](https://github.com/NillerMedDild/Enigmatica2/tree/1.69b) (2019-07-21)
 **Fixed bugs:**
