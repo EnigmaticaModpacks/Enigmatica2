@@ -1,3 +1,6 @@
-Enigmatica2 1.71 to Enigmatica2 1.71a
+Enigmatica2 1.71a to Enigmatica2 1.72
 
-* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.15)
+Updated BetterQuesting & StandardExpansion
+
+
+...  Sorry for the lame Mod changelog, my changelog tool seems to be malfunctioning.
