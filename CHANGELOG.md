@@ -1,11 +1,13 @@
 # Enigmatica 2 Changelog
 
-## [Unreleased](https://github.com/NillerMedDild/Enigmatica2/tree/HEAD)
-
+## [1.72](https://github.com/NillerMedDild/Enigmatica2/tree/1.72) (2019-09-23)
 **Fixed bugs:**
 
+- Airtight Seal is uncraftable [\#564](https://github.com/NillerMedDild/Enigmatica2/issues/564) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+- Quest Sharing [\#563](https://github.com/NillerMedDild/Enigmatica2/issues/563) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
 - Quest - Got Grout ? - Require Air [\#520](https://github.com/NillerMedDild/Enigmatica2/issues/520) [[Marker: Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Quest)] [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
 
+## [1.71a](https://github.com/NillerMedDild/Enigmatica2/tree/1.71a) (2019-09-08)
 ## [1.71](https://github.com/NillerMedDild/Enigmatica2/tree/1.71) (2019-09-01)
 **Fixed bugs:**
 
