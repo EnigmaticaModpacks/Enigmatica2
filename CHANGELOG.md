@@ -1,5 +1,6 @@
 # Enigmatica 2 Changelog
 
+## [1.73](https://github.com/NillerMedDild/Enigmatica2/tree/1.73) (2019-10-17)
 ## [1.72](https://github.com/NillerMedDild/Enigmatica2/tree/1.72) (2019-09-23)
 **Fixed bugs:**
 
@@ -204,42 +205,6 @@
 - Visible Claim Borders Tank FPS [\#363](https://github.com/NillerMedDild/Enigmatica2/issues/363)
 - IC2 recipes randomly stop working [\#352](https://github.com/NillerMedDild/Enigmatica2/issues/352)
 - Cooking with Blockhead recipe loading causes lag with storage drawers [\#312](https://github.com/NillerMedDild/Enigmatica2/issues/312)
-
-## [1.62](https://github.com/NillerMedDild/Enigmatica2/tree/1.62) (2019-03-07)
-**Closed issues:**
-
-- Update Astral Schematica schematics [\#379](https://github.com/NillerMedDild/Enigmatica2/issues/379)
-- Raubtier5 - Enigmatica 2 Crash [\#378](https://github.com/NillerMedDild/Enigmatica2/issues/378)
-- Rainbow Sprouts and Fairies spawning in Compact Machines [\#377](https://github.com/NillerMedDild/Enigmatica2/issues/377)
-- In Control! Disallow Mobs on Planets without Oxygen [\#375](https://github.com/NillerMedDild/Enigmatica2/issues/375)
-- Friend can’t complete any quests in LAN multiplayer [\#373](https://github.com/NillerMedDild/Enigmatica2/issues/373) [[Marker: Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Quest)]
-- Server not allowing players to join due to wooden doors in version 1.60 [\#371](https://github.com/NillerMedDild/Enigmatica2/issues/371)
--  Spice of Life progress reset in pack version 1.60 \(easy fix\) [\#370](https://github.com/NillerMedDild/Enigmatica2/issues/370)
-- Crashing when trying to play LAN multiplayer with one other person [\#369](https://github.com/NillerMedDild/Enigmatica2/issues/369)
-- Advanced Rocketry vaccum planets spawning mobs [\#162](https://github.com/NillerMedDild/Enigmatica2/issues/162)
-
-## [1.61](https://github.com/NillerMedDild/Enigmatica2/tree/1.61) (2019-03-04)
-**Closed issues:**
-
-- Blood Altar Lvl 3 quest [\#365](https://github.com/NillerMedDild/Enigmatica2/issues/365)
-- AE2 Universal Crafting terminal bug [\#364](https://github.com/NillerMedDild/Enigmatica2/issues/364)
-- Vulpes library Titanium Ingot recipe broken [\#362](https://github.com/NillerMedDild/Enigmatica2/issues/362)
-- AE 2 terminal crash [\#361](https://github.com/NillerMedDild/Enigmatica2/issues/361)
-- Crash and Server wont boot back up. [\#360](https://github.com/NillerMedDild/Enigmatica2/issues/360)
-- Switch Mekansim version to DZ Fork [\#358](https://github.com/NillerMedDild/Enigmatica2/issues/358)
-- RFTools Screen should be added to Carry On blacklist [\#356](https://github.com/NillerMedDild/Enigmatica2/issues/356)
-- RFTools Screen should be added to Carry On blacklist [\#355](https://github.com/NillerMedDild/Enigmatica2/issues/355)
-- Remove Keyboard Wizard [\#354](https://github.com/NillerMedDild/Enigmatica2/issues/354)
-- Crash on creating world - Lost Cities [\#353](https://github.com/NillerMedDild/Enigmatica2/issues/353)
-- tin ingot and IE or IC2 hammer result in IC2 tin plate that cant be used [\#351](https://github.com/NillerMedDild/Enigmatica2/issues/351)
-- Loot Boxes Overpowered - Run /bqs\_loot default load [\#350](https://github.com/NillerMedDild/Enigmatica2/issues/350) [[Marker: Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Quest)]
-- Draconic Evolution Fusion Crafting not working? [\#347](https://github.com/NillerMedDild/Enigmatica2/issues/347)
-- Certain quests not completing [\#345](https://github.com/NillerMedDild/Enigmatica2/issues/345) [[Marker: Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Quest)]
-- Quests not updating for partry [\#343](https://github.com/NillerMedDild/Enigmatica2/issues/343)
-- \[1.59\] Cannot complete \[Ritual Diviner\] and \[Ritual Diviner - Dusk\] [\#338](https://github.com/NillerMedDild/Enigmatica2/issues/338) [[Marker: Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Quest)]
-- Advanced Rocketry Quests - Use Oredict for Coils, Motors, Engines [\#336](https://github.com/NillerMedDild/Enigmatica2/issues/336) [[Marker: Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Quest)]
-- Crash when installing texture packs. [\#323](https://github.com/NillerMedDild/Enigmatica2/issues/323)
-- Ancient Warfare Quests \[Shigure1408\] [\#320](https://github.com/NillerMedDild/Enigmatica2/issues/320) [[Marker: Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Marker:%20Quest)]
 
 
 
