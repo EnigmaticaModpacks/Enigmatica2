@@ -1,5 +1,16 @@
 # Enigmatica 2 Changelog
 
+## [Unreleased](https://github.com/NillerMedDild/Enigmatica2/tree/HEAD)
+
+**Fixed bugs:**
+
+- Tinker's Construct Brown Magic teleport tool abilities partially bug client [\#505](https://github.com/NillerMedDild/Enigmatica2/issues/505) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
+
+**Closed issues:**
+
+- Request: Update Minecolonies [\#569](https://github.com/NillerMedDild/Enigmatica2/issues/569) [[Type: Maintenance](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Maintenance)]
+
+## [1.73a](https://github.com/NillerMedDild/Enigmatica2/tree/1.73a) (2019-10-17)
 ## [1.73](https://github.com/NillerMedDild/Enigmatica2/tree/1.73) (2019-10-17)
 ## [1.72](https://github.com/NillerMedDild/Enigmatica2/tree/1.72) (2019-09-23)
 **Fixed bugs:**
