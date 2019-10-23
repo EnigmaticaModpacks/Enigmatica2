@@ -4,6 +4,11 @@
 
 **Fixed bugs:**
 
+- FoamFix Startup Crash [\#577](https://github.com/NillerMedDild/Enigmatica2/issues/577) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
+
+## [1.73b](https://github.com/NillerMedDild/Enigmatica2/tree/1.73b) (2019-10-21)
+**Fixed bugs:**
+
 - Tinker's Construct Brown Magic teleport tool abilities partially bug client [\#505](https://github.com/NillerMedDild/Enigmatica2/issues/505) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Bug](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Bug)]
 
 **Closed issues:**
