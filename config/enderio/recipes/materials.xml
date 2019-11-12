@@ -35,11 +35,11 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
-  <recipe name="Compatibility: End Crystal" disabled="true" />
+  <recipe name="Compatibility: End Crystal"><disabled/></recipe>
 
-  <recipe name="Compatibility: Beacon" disabled="true" />
+  <recipe name="Compatibility: Beacon"><disabled/></recipe>
 
-  <recipe name="Compatibility: Bottle" disabled="true" />
+  <recipe name="Compatibility: Bottle"><disabled/></recipe>
 
   <recipe name="Compatibility: Glass Pane" required="false">
     <crafting>
@@ -51,7 +51,7 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
-  <recipe name="Compatibility: Daylight Sensor" disabled="true" />
+  <recipe name="Compatibility: Daylight Sensor"><disabled/></recipe>
 
   <recipe name="Binder Composite" required="true">
     <crafting>
@@ -136,14 +136,6 @@ XML editor will display that as tooltips when editing this file.
     </casting>
   </recipe>
 
-  <recipe name="Ender Pearl Nuggets" required="true">
-    <alloying energy="2000">
-      <input name="nuggetEnderpearl" amount="9"/>
-      <output name="oredict:enderpearl"/>
-    </alloying>
-    <!-- Note: The same inputs as a 'crafting' gives dustEnderPearl, see sagmill.xml -->
-  </recipe>
-
   <recipe name="Dark Iron Bars" required="true">
     <crafting>
       <grid size="3x2">
@@ -173,30 +165,6 @@ XML editor will display that as tooltips when editing this file.
       </grid>
       <output name="SIMPLE_CHASSIS"/>
     </crafting>
-  </recipe>
-
-  <recipe name="Chassis">
-    <alloying energy="3600" exp="1">
-      <input name="SIMPLE_CHASSIS"/>
-      <input name="dyeMachine"/>
-      <output name="CHASSIS"/>
-    </alloying>
-  </recipe>
-
-  <recipe name="Enhanced Chassis">
-    <alloying energy="3600" exp="1">
-      <input name="END_STEEL_CHASSIS"/>
-      <input name="dyeEnhancedMachine"/>
-      <output name="ENHANCED_CHASSIS"/>
-    </alloying>
-  </recipe>
-
-  <recipe name="Soul Chassis">
-    <alloying energy="3600" exp="1">
-      <input name="SIMPLE_CHASSIS"/>
-      <input name="dyeSoulMachine"/>
-      <output name="SOUL_CHASSIS"/>
-    </alloying>
   </recipe>
 
   <recipe name="End Steel Chassis" required="true">
@@ -472,25 +440,7 @@ XML editor will display that as tooltips when editing this file.
     <dependency item="dustTin" reverse="true"/>
   </alias>
 
-  <recipe name="Alloy: Industrial Insulation" required="true">
-    <alloying energy="5000" exp="0.5">
-      <input name="dustLapis"/>
-      <input name="minecraft:wool"/>
-      <input name="INSULATION_METAL"/>
-      <output name="INDUSTRIAL_INSULATION"/>
-    </alloying>
-  </recipe>
-
-  <recipe name="Alloy: Nethercotta" required="true">
-    <alloying energy="20000" exp="1">
-      <input name="ingotBrickNether"/>
-      <input name="cropNetherWart" amount="4" />
-      <input name="oredict:itemClay" amount="6" />
-      <output name="ingotBrickNetherGlazed"/>
-    </alloying>
-  </recipe>
-
-  <recipe name="Dark Steel Anvil" required="true">
+ <recipe name="Dark Steel Anvil" required="true">
     <crafting>
       <grid>
         <item name="DARK_STEEL_BLOCK"/><item name="DARK_STEEL_BLOCK"/><item name="DARK_STEEL_BLOCK"/>
@@ -498,6 +448,17 @@ XML editor will display that as tooltips when editing this file.
         <item name="DARK_STEEL"/><item name="DARK_STEEL"/><item name="DARK_STEEL"/>
       </grid>
       <output name="enderio:block_dark_steel_anvil"/>
+    </crafting>
+  </recipe>
+
+  <recipe name="Dark Paper Anvil" required="true">
+    <crafting>
+      <grid>
+        <item name="paperBlack"/><item name="paperBlack"/><item name="paperBlack"/>
+        <item/><item name="paperBlack"/><item/>
+        <item name="paperBlack"/><item name="paperBlack"/><item name="paperBlack"/>
+      </grid>
+      <output name="enderio:block_dark_paper_anvil"/>
     </crafting>
   </recipe>
 
@@ -1153,23 +1114,7 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
-  <recipe name="Infinity Goop">
-    <alloying energy="5000">
-      <input name="POWDER_INFINITY"/>
-      <input name="dustCoal"/>
-      <output name="INFINITY_GOOP"/>
-    </alloying>
-  </recipe>
-
-  <recipe name="Infinity Goop, Charcoal">
-    <alloying energy="5000">
-      <input name="POWDER_INFINITY"/>
-      <input name="dustCharcoal"/>
-      <output name="INFINITY_GOOP"/>
-    </alloying>
-  </recipe>
-
-  <recipe name="Infinity Dust Block 1">
+  <recipe name="Infinity Dust Block 1" required="true">
     <crafting>
       <grid>
         <item name="dustBedrock"/><item name="dustBedrock"/><item name="dustBedrock"/>
@@ -1180,14 +1125,14 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
-  <recipe name="Infinity Dust Block 1, Uncrafting">
+  <recipe name="Infinity Dust Block 1, Uncrafting" required="true">
     <crafting>
       <shapeless><item name="compressed1xDustBedrock"/></shapeless>
       <output name="dustBedrock" amount="9"/>
     </crafting>
   </recipe>
 
-  <recipe name="Infinity Dust Block 1, Sagmilling">
+  <recipe name="Infinity Dust Block 1, Sagmilling" required="true">
     <sagmilling energy="10000" bonus="chance_only">
       <input name="compressed1xDustBedrock"/>
       <output name="dustBedrock" amount="9"/>
@@ -1195,7 +1140,7 @@ XML editor will display that as tooltips when editing this file.
     </sagmilling>
   </recipe>
 
-  <recipe name="Infinity Dust Block 2">
+  <recipe name="Infinity Dust Block 2" required="true">
     <crafting>
       <grid>
         <item name="compressed1xDustBedrock"/><item name="compressed1xDustBedrock"/><item name="compressed1xDustBedrock"/>
@@ -1206,14 +1151,14 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
-  <recipe name="Infinity Dust Block 2, Uncrafting">
+  <recipe name="Infinity Dust Block 2, Uncrafting" required="true">
     <crafting>
       <shapeless><item name="compressed2xDustBedrock"/></shapeless>
       <output name="compressed1xDustBedrock" amount="9"/>
     </crafting>
   </recipe>
 
-  <recipe name="Infinity Dust Block 2, Sagmilling">
+  <recipe name="Infinity Dust Block 2, Sagmilling" required="true">
     <sagmilling energy="20000" bonus="chance_only">
       <input name="compressed2xDustBedrock"/>
       <output name="compressed1xDustBedrock" amount="9"/>
@@ -1222,7 +1167,7 @@ XML editor will display that as tooltips when editing this file.
     </sagmilling>
   </recipe>
 
-  <recipe name="Infinity Dust Block 3">
+  <recipe name="Infinity Dust Block 3" required="true">
     <crafting>
       <grid>
         <item name="compressed2xDustBedrock"/><item name="compressed2xDustBedrock"/><item name="compressed2xDustBedrock"/>
@@ -1233,14 +1178,14 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
-  <recipe name="Infinity Dust Block 3, Uncrafting">
+  <recipe name="Infinity Dust Block 3, Uncrafting" required="true">
     <crafting>
       <shapeless><item name="compressed3xDustBedrock"/></shapeless>
       <output name="compressed2xDustBedrock" amount="9"/>
     </crafting>
   </recipe>
 
-  <recipe name="Infinity Dust Block 3, Sagmilling">
+  <recipe name="Infinity Dust Block 3, Sagmilling" required="true">
     <sagmilling energy="30000" bonus="chance_only">
       <input name="compressed3xDustBedrock"/>
       <output name="compressed2xDustBedrock" amount="9"/>
@@ -1248,6 +1193,24 @@ XML editor will display that as tooltips when editing this file.
       <output name="dustBedrock" amount="1" chance="0.1"/>
       <output name="enderio:block_infinity_fog" amount="1" chance="0.2"/>
     </sagmilling>
+  </recipe>
+
+  <recipe name="Holy Dust, Batman" required="true">
+    <sagmilling energy="5000">
+      <input name="itemClayedGlowstone"/>
+      <output name="enderio:block_holy_fog" amount="2" chance="0.8"/>
+      <output name="dustGlowstone" chance="0.1"/>
+      <output name="oredict:itemClay" chance="0.1"/>
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Black Paper" required="true">
+    <crafting>
+      <shapeless>
+        <item name="oredict:paper"/><item name="dyeBlack"/>
+      </shapeless>
+      <output name="paperBlack" />
+    </crafting>
   </recipe>
 
 </enderio:recipes>
