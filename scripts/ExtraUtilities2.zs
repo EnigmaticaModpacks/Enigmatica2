@@ -35,3 +35,11 @@ recipes.addShaped(<extrautils2:chickenring>,
 [[<ore:feather>, <ore:ingotIron>, <ore:feather>], 
 [<ore:ingotIron>, ringChicksEntry, <ore:ingotIron>], 
 [<extrautils2:ingredients>, <ore:ingotIron>, <extrautils2:ingredients>]]);
+
+# Fixing the Slime generator recipe (something went wrong with the oredict)
+	recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}),true);
+	recipes.addShaped("SlimeGen", 
+	<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}), 
+	[[<ore:slimeball>, <ore:slimeball>, <ore:slimeball>],
+	[<ore:slimeball>, <ore:blockSlime>, <ore:slimeball>], 
+	[<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
