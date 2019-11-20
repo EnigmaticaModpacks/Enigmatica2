@@ -1,7 +1,13 @@
 # Enigmatica 2 Changelog
 
-## [Unreleased](https://github.com/NillerMedDild/Enigmatica2/tree/HEAD)
+## [1.74a](https://github.com/NillerMedDild/Enigmatica2/tree/1.74a) (2019-11-15)
 
+**Fixed bugs:**
+
+- Dank/Null Client Crash [\#585](https://github.com/NillerMedDild/Enigmatica2/issues/585) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
+- Cannot craft slimey generator [\#582](https://github.com/NillerMedDild/Enigmatica2/issues/582) [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
+
+## [1.74](https://github.com/NillerMedDild/Enigmatica2/tree/1.74) (2019-11-12)
 **Implemented enhancements:**
 
 - Request Dank Null Addition  [\#556](https://github.com/NillerMedDild/Enigmatica2/issues/556) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Suggestion](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Suggestion)]
@@ -9,6 +15,7 @@
 **Fixed bugs:**
 
 - FoamFix Startup Crash [\#577](https://github.com/NillerMedDild/Enigmatica2/issues/577) [[Status: Completed](https://github.com/NillerMedDild/Enigmatica2/labels/Status:%20Completed)] [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)]
+- Fix slimey generator recipe [\#583](https://github.com/NillerMedDild/Enigmatica2/pull/583) [[Type: Mod Issue](https://github.com/NillerMedDild/Enigmatica2/labels/Type:%20Mod%20Issue)] ([ThatGamerBlue](https://github.com/ThatGamerBlue))
 
 ## [1.73b](https://github.com/NillerMedDild/Enigmatica2/tree/1.73b) (2019-10-21)
 **Fixed bugs:**
