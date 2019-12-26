@@ -12,5 +12,6 @@ var vanillaOresAndOutputs as IItemStack[IItemStack] = {
 };
 
 for ore, output in vanillaOresAndOutputs {
+	furnace.remove(output)
 	furnace.addRecipe(output, ore, 1);
 }
