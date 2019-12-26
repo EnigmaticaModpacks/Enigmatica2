@@ -6,11 +6,33 @@
 - Re-enabled SmallPropertyStorage in FoamFix, potentially reducing RAM usage by 300-500MB [\#1451](https://github.com/NillerMedDild/Enigmatica2Expert/issues/1451) [[Config](https://github.com/NillerMedDild/Enigmatica2Expert/labels/Marker:%20Config)] [[Type: Enhancement](https://github.com/NillerMedDild/Enigmatica2Expert/labels/Type:%20Enhancement)]
 - Removed the mod Exchanger, as Building Gadgets can do the same and more.
 - Removed the Mystical World book from the starting inventory.
+- Disable Actually Additions Easter Egg [\#587](https://github.com/NillerMedDild/Enigmatica2/pull/587) [[Config](https://github.com/NillerMedDild/Enigmatica2/labels/Config)] ([ThatGamerBlue](https://github.com/ThatGamerBlue))
 
 **Fixed bugs**
 
 - Server crash with Nature's Compass
 - Apatite Duplication Exploit [\#1398](https://github.com/NillerMedDild/Enigmatica2Expert/issues/1398)
+- Dark Armor Upgrades Duplication Bug [\#584](https://github.com/NillerMedDild/Enigmatica2/issues/584)
+- Water noises cause massive lag/crashing [\#578](https://github.com/NillerMedDild/Enigmatica2/issues/578)
+- Industrial foregoing auto brewer world crash [\#574](https://github.com/NillerMedDild/Enigmatica2/issues/574)
+- Game Crashing periodically and always at when save and exit [\#557](https://github.com/NillerMedDild/Enigmatica2/issues/557)
+- Infinite energy with Advanced Generators and Mekanism Ethylene [\#555](https://github.com/NillerMedDild/Enigmatica2/issues/555)
+- Quest: Mekanism - Part 1 \> "Becoming Better" [\#544](https://github.com/NillerMedDild/Enigmatica2/issues/544) [[Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Quest)]
+- Using Exchanger on Mycelial Netherrack gives you Spectral Moss \(Remove Exchangers\) [\#539](https://github.com/NillerMedDild/Enigmatica2/issues/539)
+- Game Freezes when closing a world [\#497](https://github.com/NillerMedDild/Enigmatica2/issues/497)
+- Game crashed in midgame, can't log back on server. [\#444](https://github.com/NillerMedDild/Enigmatica2/issues/444)
+- Crashed when i placed a Ender Fluid Pipe next to a Resonant tank that had UU-Matter [\#442](https://github.com/NillerMedDild/Enigmatica2/issues/442)
+- Game freezes and crashes upon exiting world and then entering any world [\#434](https://github.com/NillerMedDild/Enigmatica2/issues/434)
+- Mekanism Obsidian TNT Infinite Chain explosion \(Base Block not despawning if triggered by explosion\) [\#386](https://github.com/NillerMedDild/Enigmatica2/issues/386)
+- Disappearing crafting items? [\#545](https://github.com/NillerMedDild/Enigmatica2/issues/545)
+- Skin becomes blurry when you open JourneyMap [\#524](https://github.com/NillerMedDild/Enigmatica2/issues/524)
+- Bad "Help" info in Mekanism Fusion quest [\#490](https://github.com/NillerMedDild/Enigmatica2/issues/490)
+- Tile Entities behave wrong under water [\#439](https://github.com/NillerMedDild/Enigmatica2/issues/439)
+- Un-hide different salt types in JEI [\#236](https://github.com/NillerMedDild/Enigmatica2/issues/236) [[Config](https://github.com/NillerMedDild/Enigmatica2/labels/Config)]
+- Crash when trying to pick up EnderIO Machines with any Wrench [\#589](https://github.com/NillerMedDild/Enigmatica2/issues/589)
+- Mystical World Duplicate/Redundant Ores [\#586](https://github.com/NillerMedDild/Enigmatica2/issues/586) [[Config](https://github.com/NillerMedDild/Enigmatica2/labels/Config)]
+- Cyclic's Empty Heart Container - can't regain lost life [\#535](https://github.com/NillerMedDild/Enigmatica2/issues/535) [[Script](https://github.com/NillerMedDild/Enigmatica2/labels/Script)]
+- No experience gained when smelting vanilla ores [\#485](https://github.com/NillerMedDild/Enigmatica2/issues/485) [[Script](https://github.com/NillerMedDild/Enigmatica2/labels/Script)]
 
 ## [1.74b](https://github.com/NillerMedDild/Enigmatica2/tree/1.74b) 
 **Fixed bugs**
