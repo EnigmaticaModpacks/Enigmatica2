@@ -1,15 +1,9 @@
-# Custom recipes made by NillerMedDild
-	print("--- loading Cyclic.zs ---");
+import mods.jei.JEI.removeAndHide as rh;
 	
-# *======= Removing Recipes =======*
-	
-	recipes.remove(<cyclicmagic:purple_helmet>);
-	recipes.remove(<cyclicmagic:storage_bag>);
-	
-# *======= Adding Recipes =======*
+rh(<cyclicmagic:heart_toxic>);
+recipes.remove(<cyclicmagic:purple_helmet>);
+recipes.remove(<cyclicmagic:storage_bag>);
 
-	recipes.addShaped("Storage Bag", <cyclicmagic:storage_bag>, [[<ore:leather>, <ore:string>, <ore:leather>],[<ore:leather>, <ore:blockGold>, <ore:leather>], [<ore:leather>, <ore:blockRedstone>, <ore:leather>]]);
+recipes.addShaped("Storage Bag", <cyclicmagic:storage_bag>, [[<ore:leather>, <ore:string>, <ore:leather>],[<ore:leather>, <ore:blockGold>, <ore:leather>], [<ore:leather>, <ore:blockRedstone>, <ore:leather>]]);
 
-# *======= Misc =======*
-
-	<cyclicmagic:mattock>.maxDamage = 4500;
+<cyclicmagic:mattock>.maxDamage = 4500;
