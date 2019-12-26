@@ -4,12 +4,13 @@
 **Changes**
 
 - Re-enabled SmallPropertyStorage in FoamFix, potentially reducing RAM usage by 300-500MB [\#1451](https://github.com/NillerMedDild/Enigmatica2Expert/issues/1451) [[Config](https://github.com/NillerMedDild/Enigmatica2Expert/labels/Marker:%20Config)] [[Type: Enhancement](https://github.com/NillerMedDild/Enigmatica2Expert/labels/Type:%20Enhancement)]
+- Removed the mod Exchanger, as Building Gadgets can do the same and more.
+- Removed the Mystical World book from the starting inventory.
 
 **Fixed bugs**
 
 - Server crash with Nature's Compass
 - Apatite Duplication Exploit [\#1398](https://github.com/NillerMedDild/Enigmatica2Expert/issues/1398)
-
 
 ## [1.74b](https://github.com/NillerMedDild/Enigmatica2/tree/1.74b) 
 **Fixed bugs**
