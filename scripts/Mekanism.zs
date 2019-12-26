@@ -60,6 +60,9 @@ import mods.jei.JEI.removeAndHide as rh;
 	rh(<mekanismtools:steelleggings>);
 	rh(<mekanismtools:steelchestplate>);
 
+# Apatite Ore Dupe Removal
+	mods.mekanism.combiner.removeRecipe(<forestry:resources>);
+
 # Nether Quartz Ore
 	mods.mekanism.combiner.removeRecipe(<minecraft:quartz_ore>);
 	mods.mekanism.combiner.addRecipe(<minecraft:quartz> * 6, <minecraft:quartz_ore>);
