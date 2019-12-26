@@ -1,6 +1,9 @@
 # Enigmatica 2 Changelog
 
+*Remember to use the command `/bq_admin default load` after updating*
+
 ## [1.75](https://github.com/NillerMedDild/Enigmatica2/tree/1.75) 
+
 **Changes**
 
 - Re-enabled SmallPropertyStorage in FoamFix, potentially reducing RAM usage by 300-500MB [\#1451](https://github.com/NillerMedDild/Enigmatica2Expert/issues/1451) [[Config](https://github.com/NillerMedDild/Enigmatica2Expert/labels/Marker:%20Config)] [[Type: Enhancement](https://github.com/NillerMedDild/Enigmatica2Expert/labels/Type:%20Enhancement)]
