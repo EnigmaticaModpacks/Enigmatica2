@@ -2,6 +2,16 @@
 
 *Remember to use the command `/bq_admin default load` after updating*
 
+## [1.75b](https://github.com/NillerMedDild/Enigmatica2/tree/1.75b) 
+
+**Fixed bugs**
+- Ore dusts from vanilla ores not being smeltable.
+
+## [1.75a](https://github.com/NillerMedDild/Enigmatica2/tree/1.75a) 
+
+**Fixed bugs**
+- Woops, forgot a semicolon. Fixes scripts not loading
+
 ## [1.75](https://github.com/NillerMedDild/Enigmatica2/tree/1.75) 
 
 **Changes**
