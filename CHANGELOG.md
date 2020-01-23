@@ -2,6 +2,17 @@
 
 *Remember to use the command `/bq_admin default load` after updating*
 
+## [1.76](https://github.com/NillerMedDild/Enigmatica2/tree/1.76) 
+
+**Changes*
+
+- Decreased JEI Block Drops precision, to speed up loading times a bit. Maybe. Hopefully.
+- OpenComputers' blocks can no longer be carried with CarryOn.
+
+**Fixed bugs**
+
+-
+
 ## [1.75b](https://github.com/NillerMedDild/Enigmatica2/tree/1.75b) 
 
 **Fixed bugs**
