@@ -3,6 +3,13 @@ print("--- loading RecipeConflicts.zs ---");
 
 	val marble = <ore:stoneMarble>;
 	
+# Removing plankWood trapdoor recipe, as it is overriding others.
+	recipes.remove(<minecraft:trapdoor>);
+	recipes.addShaped("minecraft_trapdoor_remake",
+	<minecraft:trapdoor>,
+	[[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+
 # Building Tool / Builder's Wand Stone
 	recipes.remove(<structurize:sceptergold>);
 	recipes.addShapedMirrored("structurize_sceptergold_custom", 
@@ -25,37 +32,6 @@ print("--- loading RecipeConflicts.zs ---");
 	<structurize:blockcactusplank> * 8, 
 	[<minecraft:cactus>,<minecraft:cactus>]);
 	
-# Trapdoors
-	recipes.removeShaped(<malisisdoors:trapdoor_spruce>);
-	recipes.addShaped("Spruce Trapdoor", <malisisdoors:trapdoor_spruce>, 
-	[[<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>],
-	[<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>],
-	[<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>]]);
-	
-	recipes.removeShaped(<malisisdoors:trapdoor_birch>);
-	recipes.addShaped("Birch Trapdoor", <malisisdoors:trapdoor_birch>, 
-	[[<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>],
-	[<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>],
-	[<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>]]);
-	
-	recipes.removeShaped(<malisisdoors:trapdoor_jungle>);
-	recipes.addShaped("Jungle Trapdoor", <malisisdoors:trapdoor_jungle>, 
-	[[<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>],
-	[<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>],
-	[<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>]]);
-	
-	recipes.removeShaped(<malisisdoors:trapdoor_acacia>);
-	recipes.addShaped("Acacia Trapdoor", <malisisdoors:trapdoor_acacia>, 
-	[[<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>],
-	[<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>],
-	[<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>]]);
-	
-	recipes.removeShaped(<malisisdoors:trapdoor_dark_oak>);
-	recipes.addShaped("Dark Oak Trapdoor", <malisisdoors:trapdoor_dark_oak>, 
-	[[<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>],
-	[<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>],
-	[<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>]]);
-
 # Polished Marble / Marble Pavement
 	recipes.remove(<quark:marble:1>);
 	

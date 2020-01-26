@@ -391,7 +391,18 @@ import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
 		<malisisdoors:trapdoor_dark_oak>,
 		<malisisdoors:trapdoor_jungle>,
 		<malisisdoors:trapdoor_spruce>,
-		<wizardry:wisdom_wood_trapdoor>
+		<wizardry:wisdom_wood_trapdoor>,
+		<blockcraftery:editable_trap_door>,
+		<blockcraftery:editable_trap_door_reinforced>,
+		<roots:wildwood_trapdoor>,
+		<structurize:blockcactustrapdoor>,
+		<twilightforest:twilight_oak_trapdoor>,
+		<twilightforest:canopy_trapdoor>,
+		<twilightforest:mangrove_trapdoor>,
+		<twilightforest:dark_trapdoor>,
+		<twilightforest:time_trapdoor>,
+		<twilightforest:mine_trapdoor>,
+		<twilightforest:sort_trapdoor>
 	] as IItemStack[];
 	
 	Trapdoor.addItems(TrapdoorToAdd);

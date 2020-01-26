@@ -4,14 +4,18 @@
 
 ## [1.76](https://github.com/NillerMedDild/Enigmatica2/tree/1.76) 
 
-**Changes*
+**Changes**
 
 - Decreased JEI Block Drops precision, to speed up loading times a bit. Maybe. Hopefully.
 - OpenComputers' blocks can no longer be carried with CarryOn.
+- NuclearCraft Electromagnets can now share power with adjacent Electromagnets [\#601](https://github.com/NillerMedDild/Enigmatica2/issues/601) [[Config](https://github.com/NillerMedDild/Enigmatica2/labels/Config)]
 
 **Fixed bugs**
 
--
+- Many different wood planks make the Oak Trapdoor [\#609](https://github.com/NillerMedDild/Enigmatica2/issues/609)
+- Multiplayer quests broken [\#606](https://github.com/NillerMedDild/Enigmatica2/issues/606)
+- Putting Steam to Use Quest [\#605](https://github.com/NillerMedDild/Enigmatica2/issues/605) [[Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Quest)]
+- Better questing: Can't accept party invite [\#596](https://github.com/NillerMedDild/Enigmatica2/issues/596)
 
 ## [1.75b](https://github.com/NillerMedDild/Enigmatica2/tree/1.75b) 
 
