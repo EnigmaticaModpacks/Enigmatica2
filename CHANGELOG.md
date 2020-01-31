@@ -2,6 +2,16 @@
 
 *Remember to use the command `/bq_admin default load` after updating*
 
+## [1.77](https://github.com/NillerMedDild/Enigmatica2/tree/1.77) 
+
+**Changes**
+
+- Disabled the ability to pipe items into the DankNull Docking Station, as the Docking Station tends to cause lag when it contains a DankNull with a large amount of items.
+
+**Fixed bugs**
+
+- 
+
 ## [1.76](https://github.com/NillerMedDild/Enigmatica2/tree/1.76) 
 
 **Changes**
