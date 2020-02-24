@@ -1,22 +1,8 @@
 import mods.jei.JEI.removeAndHide as rh;
 import crafttweaker.item.IItemStack as IItemStack;
-# Custom recipes made by NillerMedDild
-	print("--- loading OreDict.zs ---");
-
-// The oredict plankWood has some many entries that inputting any recipe
-// that takes planks with the JEI plus will cause a client disconnect.
-for plank in <ore:plankWood>.items {
-	if (plank.definition.owner == "unlimitedchiselworks") {
-		recipes.addShapeless("unlimitedchiselworks_plank_to_oak_plank", <minecraft:planks>, [plank]);
-		<ore:plankWood>.remove(plank);
-	}
-}
 
 	<ore:stickStone>.add(<tconstruct:stone_stick>);
 
-# Removing Pam's in-world Apple from cropApple
-	<ore:cropApple>.remove(<harvestcraft:pamapple>);
-	
 # Cobalt Block issues
 	<ore:oreCobalt>.remove(<tconstruct:metal>);
 	<ore:oreArdite>.remove(<tconstruct:metal>);
@@ -60,10 +46,6 @@ for plank in <ore:plankWood>.items {
 # String isn't flax, wut
 	<ore:cropFlax>.remove(<minecraft:string>);
 		
-# Pam's Apple
-	<ore:cropApple>.add(<harvestcraft:pamapple>);
-	<ore:listAllfruit>.add(<harvestcraft:pamapple>);
-
 # Boat Oredict 
 	val boats = [
 		<minecraft:boat>,
