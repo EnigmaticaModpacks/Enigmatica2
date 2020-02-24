@@ -18,6 +18,7 @@
 - Some Quark Mobs Cannot Despawn \(Changed their spawns, made their spawn eggs available through the Market\) [\#620](https://github.com/NillerMedDild/Enigmatica2/issues/620) [[Config](https://github.com/NillerMedDild/Enigmatica2/labels/Config)]
 - Slag violates laws of thermodynamics  [\#618](https://github.com/NillerMedDild/Enigmatica2/issues/618) [[Config](https://github.com/NillerMedDild/Enigmatica2/labels/Config)]
 - Binnie's Mods - Binnie's Extra Trees give unlimited berries on right click. [\#612](https://github.com/NillerMedDild/Enigmatica2/issues/612)
+- Fixed JER showing incorrect dimension info (Thanks TheBoo & Discomanco for helping out!) [#611](https://github.com/NillerMedDild/Enigmatica2/issues/611)
 
 ## 1.76
 
