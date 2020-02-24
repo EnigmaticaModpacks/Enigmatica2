@@ -2,7 +2,19 @@
 
 *Remember to use the command `/bq_admin default load` after updating*
 
-## [1.76](https://github.com/NillerMedDild/Enigmatica2/tree/1.76) 
+## 1.77
+
+**Changes**
+
+- Planks from Unlimited Chisel Works can no longer be used in all recipes that take planks. 
+They can be converted to Oak Planks instead. 
+This is a side-effect of fixing [Bug #604](https://github.com/NillerMedDild/Enigmatica2/issues/604)
+
+**Fixed bugs**
+
+- 
+
+## 1.76
 
 **Changes**
 
@@ -17,17 +29,17 @@
 - Putting Steam to Use Quest [\#605](https://github.com/NillerMedDild/Enigmatica2/issues/605) [[Quest](https://github.com/NillerMedDild/Enigmatica2/labels/Quest)]
 - Better questing: Can't accept party invite [\#596](https://github.com/NillerMedDild/Enigmatica2/issues/596)
 
-## [1.75b](https://github.com/NillerMedDild/Enigmatica2/tree/1.75b) 
+## 1.75b
 
 **Fixed bugs**
 - Ore dusts from vanilla ores not being smeltable.
 
-## [1.75a](https://github.com/NillerMedDild/Enigmatica2/tree/1.75a) 
+## 1.75a
 
 **Fixed bugs**
 - Woops, forgot a semicolon. Fixes scripts not loading
 
-## [1.75](https://github.com/NillerMedDild/Enigmatica2/tree/1.75) 
+## 1.75
 
 **Changes**
 
