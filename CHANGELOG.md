@@ -6,6 +6,7 @@
 
 **Changes**
 
+- Exchanged Super Sound Muffler with Super Sound Muffler: Revived
 - Removed all Planks from the mod Unlimited Chisel Works. This is a side-effect of fixing [Bug #604](https://github.com/NillerMedDild/Enigmatica2/issues/604)
 - Removed the IC2 Thermal Centrifuge recipe Slag -> Pulverized Coal, as it could be used for duping
 - Buffed the RFTools Powercell! (Credit Discomanco)
