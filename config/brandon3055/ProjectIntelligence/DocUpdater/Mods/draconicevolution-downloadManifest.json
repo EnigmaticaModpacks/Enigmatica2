@@ -3,8 +3,8 @@
   "base_files": [
     {
       "file_path": "structure/lang/en_us.json",
-      "url": "http://pi.brandon3055.com/objects/d5/d5a5720994f27f2921f3b33451dfef5d2cb8fd86",
-      "sha1": "d5a5720994f27f2921f3b33451dfef5d2cb8fd86"
+      "url": "http://pi.brandon3055.com/objects/4b/4babaec237647b3af0b01fc321888537090e10cd",
+      "sha1": "4babaec237647b3af0b01fc321888537090e10cd"
     },
     {
       "file_path": "structure/lang/ru_ru.json",
@@ -18,8 +18,8 @@
     },
     {
       "file_path": "structure/structure.json",
-      "url": "http://pi.brandon3055.com/objects/48/480c74a7318b9068ca0ea0c3746682ed97369e6e",
-      "sha1": "480c74a7318b9068ca0ea0c3746682ed97369e6e"
+      "url": "http://pi.brandon3055.com/objects/82/827b299f6e92fca1633be26cbd9304e3c7c293c3",
+      "sha1": "827b299f6e92fca1633be26cbd9304e3c7c293c3"
     },
     {
       "file_path": "structure/ru_ru/draconicevolution_dbd2b.md",
@@ -1236,6 +1236,12 @@
       "file_path": "en_us/dislocation/bound_dislocators_d4344.md",
       "url": "http://pi.brandon3055.com/objects/79/799af464d49def4b1cc50ac8dee2e2110b711c75",
       "sha1": "799af464d49def4b1cc50ac8dee2e2110b711c75",
+      "lang": "en_us"
+    },
+    {
+      "file_path": "en_us/dislocation/power_portals_2a601.md",
+      "url": "http://pi.brandon3055.com/objects/35/352b53f491e8c8948670a90a7cd578877a7c0906",
+      "sha1": "352b53f491e8c8948670a90a7cd578877a7c0906",
       "lang": "en_us"
     },
     {
