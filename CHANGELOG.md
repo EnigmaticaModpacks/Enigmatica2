@@ -1,8 +1,14 @@
 # Enigmatica 2 Changelog
 
-*Remember to use the command `/bq_admin default load` after updating*
+## 1.78
+
+**Changes**
+
+* Disabled NuclearCraft Radition Shielding recipes for Armor
 
 ## 1.77
+
+*Remember to use the command `/bq_admin default load` after updating*
 
 **Changes**
 
