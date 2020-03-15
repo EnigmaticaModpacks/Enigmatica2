@@ -10828,7 +10828,7 @@
           "name:8": "Long distance relations",
           "autoClaim:8": "false",
           "isSilent:8": "false",
-          "desc:8": "The Quantum Entangloporters are for your long-range transport of either items, power, fluids or gasses (Heat seems to be non-functional in Mekanism 9.2).\nTo get started with it, place it down and assign it either a public or private channel (pipes wont connect otherwise). \nThis QE has all the Side Configs available, and everything (including Energy) has Auto-push set to Off, so make sure to set all of them to On, if it\u0027s your output QE. \nThe stats of the QE is (as per Mekanism 9.2, MC1.10.2): \n1 item per second\n400k rf/t\n256 mb/t gas/fluid. \nThis limit is per channel, so you can\u0027t have 2 pairs of QEs to transfer 800k RF/t on the same channel. You can still have 2 pairs of QEs on 2 different channels to transfer 800k RF/t."
+          "desc:8": "The Quantum Entangloporters are for your long-range transport of either items, power, fluids or gasses (Heat seems to be non-functional in Mekanism 9.2).\nTo get started with it, place it down and assign it either a public or private channel (pipes wont connect otherwise). \nThis QE has all the Side Configs available, and everything (including Energy) has Auto-push set to Off, so make sure to set all of them to On, if it\u0027s your output QE. \nThe stats of the QE is (as per Mekanism 9.2, MC1.10.2): \n1 item per second\n6.4 Million RF/t\n256 mb/t gas/fluid. \nThis limit is per channel, so you can\u0027t have 2 pairs of QEs to transfer 800k RF/t on the same channel. You can still have 2 pairs of QEs on 2 different channels to transfer 800k RF/t."
         }
       },
       "tasks:9": {
