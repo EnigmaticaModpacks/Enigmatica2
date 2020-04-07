@@ -4,7 +4,12 @@
 
 **Changes**
 
-* Disabled NuclearCraft Radition Shielding recipes for Armor
+- Disabled NuclearCraft Radition Shielding recipes for Armor
+
+**Bug fixes**
+
+- Fix extra bees metallic grain crafting recipes [(Credit JVital2013)](https://github.com/NillerMedDild/Enigmatica2/pull/639)
+- Fix Extra Bees Nutdew producing too little seed oil in the squeezer [(Credit JVital2013)](https://github.com/NillerMedDild/Enigmatica2/pull/639)
 
 ## 1.77
 
