@@ -6,3 +6,6 @@ recipes.addShapeless(<thermalfoundation:material:65>, [<extrabees:misc:11>,<extr
 recipes.addShapeless(<thermalfoundation:material:69>, [<extrabees:misc:12>,<extrabees:misc:12>,<extrabees:misc:12>,<extrabees:misc:12>]);
 recipes.addShapeless(<thermalfoundation:material:67>, [<extrabees:misc:13>,<extrabees:misc:13>,<extrabees:misc:13>,<extrabees:misc:13>]);
 recipes.addShapeless(<thermalfoundation:material:768>, [<extrabees:misc:18>,<extrabees:misc:18>,<extrabees:misc:18>,<extrabees:misc:18>]);
+
+#Fix Nutdew to seed oil
+mods.forestry.Squeezer.addRecipe(<liquid:seed.oil> * 200, [<extrabees:honey_drop:7>], 100);
