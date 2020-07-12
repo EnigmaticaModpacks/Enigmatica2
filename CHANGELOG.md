@@ -6,6 +6,10 @@
 
 - Disabled NuclearCraft Radition Shielding recipes for Armor
 
+**Mod Removals**
+
+- Fullscreen Windowed (Borderless)
+
 **Bug fixes**
 
 - Fix extra bees metallic grain crafting recipes [(Credit JVital2013)](https://github.com/NillerMedDild/Enigmatica2/pull/639)
