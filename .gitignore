@@ -102,3 +102,4 @@ CHANGELOG-GENERATED.md
 config/astralsorcery/amulet_enchantments.cfg
 MakeModpackFiles.ps1
 MakeModpackFiles.bat
+secrets.ps1
