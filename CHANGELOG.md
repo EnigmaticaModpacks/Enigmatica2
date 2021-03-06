@@ -1,8 +1,53 @@
-# Enigmatica 2 Changelog
+# Enigmatica 2 1.78 Changelog
+
+_Using Forge-1.12.2-14.23.5.2854_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica2/blob/master/changelogs/CHANGELOG_MODS_1.78.md)_
 
 *Remember to use the command `/bq_admin default load` after updating*
 
+
+
+**Changes/Improvements**
+
+- Disabled NuclearCraft Radition Shielding recipes for Armor
+- Server: The ServerStart files have been updated to reflect Forge's change in jar name. 
+
+**Bug fixes**
+
+- ancient warfare burning at the stake crashing server [\#661](https://github.com/NillerMedDild/Enigmatica2/issues/661)
+- Ancient Warfare tree farm crashes game when using Forestry saplings [\#659](https://github.com/NillerMedDild/Enigmatica2/issues/659)
+- Changing volume while inventory is opened moves the hotbar. [\#703](https://github.com/NillerMedDild/Enigmatica2/issues/703)
+- Cheat mode on by default in JEI at the start of a new game [\#709](https://github.com/NillerMedDild/Enigmatica2/issues/709)
+- Crafting Recipe for Iron Dust from Iron Grains dissapeared [\#630](https://github.com/NillerMedDild/Enigmatica2/issues/630)
+- Cursed earth mob farm not chunkloading correctly [\#645](https://github.com/NillerMedDild/Enigmatica2/issues/645)
+- Embers Rekindled Stamper [\#672](https://github.com/NillerMedDild/Enigmatica2/issues/672)
+- EnderIO armor upgrades dupe while trying to enchant [\#662](https://github.com/NillerMedDild/Enigmatica2/issues/662)
+- FarSeek 2.4 causes incompatibility with SpongeForge [\#693](https://github.com/NillerMedDild/Enigmatica2/issues/693)
+- Fix extra bees metallic grain crafting recipes [(Credit JVital2013)](https://github.com/NillerMedDild/Enigmatica2/pull/639)
+- Fix Extra Bees Nutdew producing too little seed oil in the squeezer [(Credit JVital2013)](https://github.com/NillerMedDild/Enigmatica2/pull/639)
+- Forestry squeezer outputs fruit juice instead of grape juice in 1.8.0 [\#657](https://github.com/NillerMedDild/Enigmatica2/issues/657)
+- Free 'ghost' Item [\#637](https://github.com/NillerMedDild/Enigmatica2/issues/637)
+- IC2 Coal Coke in Macerator [\#632](https://github.com/NillerMedDild/Enigmatica2/issues/632)
+- Incorrect Energy Transfer amount stated in Quantum Entangloporter quest [\#640](https://github.com/NillerMedDild/Enigmatica2/issues/640)
+- Integrated Dynamics quests show completion popups, but quests do not appear in book [\#664](https://github.com/NillerMedDild/Enigmatica2/issues/664)
+- Issues on T6 Void Miner and Laser Drill ore list [\#676](https://github.com/NillerMedDild/Enigmatica2/issues/676)
+- JAOPCA and PlusTiC Astral Star Metal Conflict [\#682](https://github.com/NillerMedDild/Enigmatica2/issues/682)
+- Laser Drill not getting ardite and cobalt in all nether biomes [\#677](https://github.com/NillerMedDild/Enigmatica2/issues/677)
+- Metal duplication involving Tinkers' Smeltery and Advanced Rocketry rods [\#673](https://github.com/NillerMedDild/Enigmatica2/issues/673)
+- Mystical world mod 2 issues [\#711](https://github.com/NillerMedDild/Enigmatica2/issues/711)
+- Quest - Band Of Mana no detections [\#629](https://github.com/NillerMedDild/Enigmatica2/issues/629)
+- Removed the mod Aurora [\#643](https://github.com/NillerMedDild/Enigmatica2/issues/643)
+- Water in the Nether and the End [\#712](https://github.com/NillerMedDild/Enigmatica2/issues/712)
+
+**Mod Removals**
+
+- Fullscreen Windowed (Borderless)
+- JEI Block Drops (Not great for load times)
+
+
+
 ## 1.77
+
+*Remember to use the command `/bq_admin default load` after updating*
 
 **Changes**
 

@@ -100,3 +100,6 @@ OpenComputersMod-1.7.5.192-lua53-native.64.dll
 textures_0.png
 CHANGELOG-GENERATED.md
 config/astralsorcery/amulet_enchantments.cfg
+MakeModpackFiles.ps1
+MakeModpackFiles.bat
+secrets.ps1
