@@ -1,6 +1,4 @@
-##  Modlist
-- 1.12.2
-- memory_repo
+##  Modlist for Enigmatica 2 1.78
 - ActuallyAdditions-1.12.2-r152
 - ActuallyBaubles-1.12-1.1
 - AdvancedRocketry-1.12.2-1.7.0-238-universal
