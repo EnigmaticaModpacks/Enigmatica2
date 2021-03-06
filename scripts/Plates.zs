@@ -43,16 +43,16 @@ import crafttweaker.item.IItemStack as IItemStack;
 	mods.embers.Stamper.remove(<embers:plate_electrum>);
 	mods.embers.Stamper.remove(<embers:plate_nickel>);
 	mods.embers.Stamper.remove(<embers:plate_tin>);
-	mods.embers.Stamper.add(<thermalfoundation:material:320>, <liquid:copper>, <embers:stamp_plate>);
-	mods.embers.Stamper.add(<thermalfoundation:material:323>, <liquid:lead>, <embers:stamp_plate>);
-	mods.embers.Stamper.add(<thermalfoundation:material:322>, <liquid:silver>, <embers:stamp_plate>);
-	mods.embers.Stamper.add(<thermalfoundation:material:32>, <liquid:iron>, <embers:stamp_plate>);
-	mods.embers.Stamper.add(<thermalfoundation:material:33>, <liquid:gold>, <embers:stamp_plate>);
-	mods.embers.Stamper.add(<thermalfoundation:material:324>, <liquid:aluminum>, <embers:stamp_plate>);
-	mods.embers.Stamper.add(<thermalfoundation:material:355>, <liquid:bronze>, <embers:stamp_plate>);
-	mods.embers.Stamper.add(<thermalfoundation:material:353>, <liquid:electrum>, <embers:stamp_plate>);
-	mods.embers.Stamper.add(<thermalfoundation:material:325>, <liquid:nickel>, <embers:stamp_plate>);
-	mods.embers.Stamper.add(<thermalfoundation:material:321>, <liquid:tin>, <embers:stamp_plate>);
+	mods.embers.Stamper.add(<thermalfoundation:material:320>, <liquid:copper> * 144, <embers:stamp_plate>);
+	mods.embers.Stamper.add(<thermalfoundation:material:323>, <liquid:lead> * 144, <embers:stamp_plate>);
+	mods.embers.Stamper.add(<thermalfoundation:material:322>, <liquid:silver> * 144, <embers:stamp_plate>);
+	mods.embers.Stamper.add(<thermalfoundation:material:32>, <liquid:iron> * 144, <embers:stamp_plate>);
+	mods.embers.Stamper.add(<thermalfoundation:material:33>, <liquid:gold> * 144, <embers:stamp_plate>);
+	mods.embers.Stamper.add(<thermalfoundation:material:324>, <liquid:aluminum> * 144, <embers:stamp_plate>);
+	mods.embers.Stamper.add(<thermalfoundation:material:355>, <liquid:bronze> * 144, <embers:stamp_plate>);
+	mods.embers.Stamper.add(<thermalfoundation:material:353>, <liquid:electrum> * 144, <embers:stamp_plate>);
+	mods.embers.Stamper.add(<thermalfoundation:material:325>, <liquid:nickel> * 144, <embers:stamp_plate>);
+	mods.embers.Stamper.add(<thermalfoundation:material:321>, <liquid:tin> * 144, <embers:stamp_plate>);
 
 	val platesIE = [
 	<immersiveengineering:metal:30>,
