@@ -1,3 +1,17 @@
+# Enigmatica 2 1.79 Changelog
+
+_Using Forge-1.12.2-14.23.5.2854_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica2/blob/master/changelogs/CHANGELOG_MODS_1.79.md)_
+
+
+
+**Changes/Improvements**
+
+- 
+
+**Bug fixes**
+
+- 
+
 # Enigmatica 2 1.78 Changelog
 
 _Using Forge-1.12.2-14.23.5.2854_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica2/blob/master/changelogs/CHANGELOG_MODS_1.78.md)_
