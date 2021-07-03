@@ -4,13 +4,10 @@ _Using Forge-1.12.2-14.23.5.2854_ | _[Mod Updates](https://github.com/NillerMedD
 
 
 
-**Changes/Improvements**
-
-- 
-
 **Bug fixes**
 
-- 
+- Found a way to duplicate the crystal cell from ember [\#722](https://github.com/NillerMedDild/Enigmatica2/issues/722)
+- Twilight Forest Upgrade Results in Tick Damage / Fire / Slowness [\#717](https://github.com/NillerMedDild/Enigmatica2/issues/717)
 
 # Enigmatica 2 1.78 Changelog
 
